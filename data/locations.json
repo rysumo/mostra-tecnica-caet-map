@@ -1,0 +1,386 @@
+{
+  "title": "Mostra Técnica CAET - Mapa do Evento",
+  "center": [
+    -24.7878,
+    -53.7265
+  ],
+  "defaultZoom": 17,
+  "categories": [
+    "Agricultura",
+    "Produção Animal",
+    "Infraestrutura & Máquinas",
+    "Serviços",
+    "Estacionamento"
+  ],
+  "locations": [
+    {
+      "id": "loc-1",
+      "name": "Ovinocultura",
+      "category": "Produção Animal",
+      "badge": "🐄 PRODUÇÃO ANIMAL",
+      "icon": "cow",
+      "color": "#b45309",
+      "lat": -24.78798980937658,
+      "lng": -53.72641289231206,
+      "elevation": 511.0041189543823,
+      "gpsText": "GPS: -24.787990, -53.726413"
+    },
+    {
+      "id": "loc-2",
+      "name": "Setor Drone",
+      "category": "Infraestrutura & Máquinas",
+      "badge": "⚙️ INFRAESTRUTURA",
+      "icon": "cog",
+      "color": "#2563eb",
+      "lat": -24.78878852142427,
+      "lng": -53.72500748890486,
+      "elevation": 511.6853029367284,
+      "gpsText": "GPS: -24.788789, -53.725007"
+    },
+    {
+      "id": "loc-3",
+      "name": "Maquinário Agrícola",
+      "category": "Infraestrutura & Máquinas",
+      "badge": "⚙️ INFRAESTRUTURA",
+      "icon": "cog",
+      "color": "#2563eb",
+      "lat": -24.78932814055537,
+      "lng": -53.72540943752063,
+      "elevation": 514.527295434797,
+      "gpsText": "GPS: -24.789328, -53.725409"
+    },
+    {
+      "id": "loc-4",
+      "name": "Bovinocultura de leite",
+      "category": "Produção Animal",
+      "badge": "🐄 PRODUÇÃO ANIMAL",
+      "icon": "cow",
+      "color": "#b45309",
+      "lat": -24.78710399343263,
+      "lng": -53.72677592982301,
+      "elevation": 503.4953194875924,
+      "gpsText": "GPS: -24.787104, -53.726776"
+    },
+    {
+      "id": "loc-5",
+      "name": "Inseminação Artificial",
+      "category": "Produção Animal",
+      "badge": "🐄 PRODUÇÃO ANIMAL",
+      "icon": "cow",
+      "color": "#b45309",
+      "lat": -24.78699075185239,
+      "lng": -53.72690893295326,
+      "elevation": 504.0252343032722,
+      "gpsText": "GPS: -24.786991, -53.726909"
+    },
+    {
+      "id": "loc-6",
+      "name": "Agroindústria Animal",
+      "category": "Produção Animal",
+      "badge": "🐄 PRODUÇÃO ANIMAL",
+      "icon": "cow",
+      "color": "#b45309",
+      "lat": -24.7870755938292,
+      "lng": -53.72700124010368,
+      "elevation": 504.2115876584236,
+      "gpsText": "GPS: -24.787076, -53.727001"
+    },
+    {
+      "id": "loc-7",
+      "name": "Setor Café",
+      "category": "Agricultura",
+      "badge": "🌱 AGRICULTURA",
+      "icon": "sprout",
+      "color": "#16a34a",
+      "lat": -24.78742340222299,
+      "lng": -53.72545199696982,
+      "elevation": 505.7237629656889,
+      "gpsText": "GPS: -24.787423, -53.725452"
+    },
+    {
+      "id": "loc-8",
+      "name": "Setor Tecnologias de Irrigação",
+      "category": "Agricultura",
+      "badge": "🌱 AGRICULTURA",
+      "icon": "sprout",
+      "color": "#16a34a",
+      "lat": -24.7875675663122,
+      "lng": -53.72595085152211,
+      "elevation": 506.6876251951865,
+      "gpsText": "GPS: -24.787568, -53.725951"
+    },
+    {
+      "id": "loc-9",
+      "name": "Morango Semi-hidropônico",
+      "category": "Agricultura",
+      "badge": "🌱 AGRICULTURA",
+      "icon": "sprout",
+      "color": "#16a34a",
+      "lat": -24.78757058911545,
+      "lng": -53.72580163030986,
+      "elevation": 506.6245226333042,
+      "gpsText": "GPS: -24.787571, -53.725802"
+    },
+    {
+      "id": "loc-10",
+      "name": "Cunicultura",
+      "category": "Produção Animal",
+      "badge": "🐄 PRODUÇÃO ANIMAL",
+      "icon": "cow",
+      "color": "#b45309",
+      "lat": -24.78807602556994,
+      "lng": -53.72858141716534,
+      "elevation": 506.1633252661235,
+      "gpsText": "GPS: -24.788076, -53.728581"
+    },
+    {
+      "id": "loc-11",
+      "name": "Agroestologico e Alimentação Animal",
+      "category": "Outros",
+      "badge": "ℹ️ SERVIÇOS",
+      "icon": "info",
+      "color": "#0891b2",
+      "lat": -24.78698631746066,
+      "lng": -53.7274803126561,
+      "elevation": 503.4781771503527,
+      "gpsText": "GPS: -24.786986, -53.727480"
+    },
+    {
+      "id": "loc-12",
+      "name": "Setor Soja",
+      "category": "Agricultura",
+      "badge": "🌱 AGRICULTURA",
+      "icon": "sprout",
+      "color": "#16a34a",
+      "lat": -24.7869897194152,
+      "lng": -53.728813928797,
+      "elevation": 502.0769807128678,
+      "gpsText": "GPS: -24.786990, -53.728814"
+    },
+    {
+      "id": "loc-13",
+      "name": "Setor Milho",
+      "category": "Agricultura",
+      "badge": "🌱 AGRICULTURA",
+      "icon": "sprout",
+      "color": "#16a34a",
+      "lat": -24.78666039524668,
+      "lng": -53.72861929567873,
+      "elevation": 500.0900466897961,
+      "gpsText": "GPS: -24.786660, -53.728619"
+    },
+    {
+      "id": "loc-14",
+      "name": "Setor Trigo",
+      "category": "Agricultura",
+      "badge": "🌱 AGRICULTURA",
+      "icon": "sprout",
+      "color": "#16a34a",
+      "lat": -24.78682503252801,
+      "lng": -53.72827908526754,
+      "elevation": 501.4608930639052,
+      "gpsText": "GPS: -24.786825, -53.728279"
+    },
+    {
+      "id": "loc-15",
+      "name": "Setor Algodão",
+      "category": "Agricultura",
+      "badge": "🌱 AGRICULTURA",
+      "icon": "sprout",
+      "color": "#16a34a",
+      "lat": -24.78737967473064,
+      "lng": -53.72623571830974,
+      "elevation": 505.9450306284432,
+      "gpsText": "GPS: -24.787380, -53.726236"
+    },
+    {
+      "id": "loc-16",
+      "name": "Setor Erva mate",
+      "category": "Agricultura",
+      "badge": "🌱 AGRICULTURA",
+      "icon": "sprout",
+      "color": "#16a34a",
+      "lat": -24.78818994136726,
+      "lng": -53.72682797694148,
+      "elevation": 512.6526441912272,
+      "gpsText": "GPS: -24.788190, -53.726828"
+    },
+    {
+      "id": "loc-17",
+      "name": "Suinocultura",
+      "category": "Produção Animal",
+      "badge": "🐄 PRODUÇÃO ANIMAL",
+      "icon": "cow",
+      "color": "#b45309",
+      "lat": -24.78776503312167,
+      "lng": -53.72875853317967,
+      "elevation": 506.8882176004255,
+      "gpsText": "GPS: -24.787765, -53.728759"
+    },
+    {
+      "id": "loc-18",
+      "name": "Setor Biodigestor",
+      "category": "Infraestrutura & Máquinas",
+      "badge": "⚙️ INFRAESTRUTURA",
+      "icon": "cog",
+      "color": "#2563eb",
+      "lat": -24.78754122376148,
+      "lng": -53.72896259977192,
+      "elevation": 508.1766926014039,
+      "gpsText": "GPS: -24.787541, -53.728963"
+    },
+    {
+      "id": "loc-19",
+      "name": "Setor Piscicultura",
+      "category": "Produção Animal",
+      "badge": "🐄 PRODUÇÃO ANIMAL",
+      "icon": "cow",
+      "color": "#b45309",
+      "lat": -24.78713309855705,
+      "lng": -53.72608662514739,
+      "elevation": 503.4459689915744,
+      "gpsText": "GPS: -24.787133, -53.726087"
+    },
+    {
+      "id": "loc-20",
+      "name": "Galinha de postura Gaiolas",
+      "category": "Produção Animal",
+      "badge": "🐄 PRODUÇÃO ANIMAL",
+      "icon": "cow",
+      "color": "#b45309",
+      "lat": -24.78768871794547,
+      "lng": -53.72581033222089,
+      "elevation": 507.8258872229687,
+      "gpsText": "GPS: -24.787689, -53.725810"
+    },
+    {
+      "id": "loc-21",
+      "name": "Galinha de Postura Soltas",
+      "category": "Produção Animal",
+      "badge": "🐄 PRODUÇÃO ANIMAL",
+      "icon": "cow",
+      "color": "#b45309",
+      "lat": -24.78711353197451,
+      "lng": -53.72554788276259,
+      "elevation": 502.9801246854798,
+      "gpsText": "GPS: -24.787114, -53.725548"
+    },
+    {
+      "id": "loc-22",
+      "name": "Gado Purunã",
+      "category": "Produção Animal",
+      "badge": "🐄 PRODUÇÃO ANIMAL",
+      "icon": "cow",
+      "color": "#b45309",
+      "lat": -24.78784696633938,
+      "lng": -53.72801369054265,
+      "elevation": 505.7052778611653,
+      "gpsText": "GPS: -24.787847, -53.728014"
+    },
+    {
+      "id": "loc-23",
+      "name": "Meliponicultura",
+      "category": "Produção Animal",
+      "badge": "🐄 PRODUÇÃO ANIMAL",
+      "icon": "cow",
+      "color": "#b45309",
+      "lat": -24.7874697080331,
+      "lng": -53.72445624537814,
+      "elevation": 504.776082777561,
+      "gpsText": "GPS: -24.787470, -53.724456"
+    },
+    {
+      "id": "loc-24",
+      "name": "Frango de corte",
+      "category": "Produção Animal",
+      "badge": "🐄 PRODUÇÃO ANIMAL",
+      "icon": "cow",
+      "color": "#b45309",
+      "lat": -24.78767199983093,
+      "lng": -53.72573957945043,
+      "elevation": 507.6066945990221,
+      "gpsText": "GPS: -24.787672, -53.725740"
+    },
+    {
+      "id": "loc-25",
+      "name": "Inscrição",
+      "category": "Serviços",
+      "badge": "ℹ️ SERVIÇOS",
+      "icon": "info",
+      "color": "#0891b2",
+      "lat": -24.78976355970232,
+      "lng": -53.72492954280644,
+      "elevation": 512.6018537967515,
+      "gpsText": "GPS: -24.789764, -53.724930"
+    },
+    {
+      "id": "loc-26",
+      "name": "Ponto de Água",
+      "category": "Serviços",
+      "badge": "ℹ️ SERVIÇOS",
+      "icon": "info",
+      "color": "#0891b2",
+      "lat": -24.78974826267669,
+      "lng": -53.72498593754265,
+      "elevation": 512.8204209904947,
+      "gpsText": "GPS: -24.789748, -53.724986"
+    },
+    {
+      "id": "loc-27",
+      "name": "Ponto de Água",
+      "category": "Serviços",
+      "badge": "ℹ️ SERVIÇOS",
+      "icon": "info",
+      "color": "#0891b2",
+      "lat": -24.78820125258162,
+      "lng": -53.72673481923785,
+      "elevation": 512.8542278448429,
+      "gpsText": "GPS: -24.788201, -53.726735"
+    },
+    {
+      "id": "loc-28",
+      "name": "Estacionamento",
+      "category": "Estacionamento",
+      "badge": "🚗 ESTACIONAMENTO",
+      "icon": "parking",
+      "color": "#7c3aed",
+      "lat": -24.78905296927759,
+      "lng": -53.72469770408365,
+      "elevation": 511.6017918040174,
+      "gpsText": "GPS: -24.789053, -53.724698"
+    }
+  ],
+  "polygons": [
+    {
+      "name": "Estacionamento",
+      "coordinates": [
+        [
+          -24.78871070398583,
+          -53.72484546814176
+        ],
+        [
+          -24.78963061669574,
+          -53.72474013603524
+        ],
+        [
+          -24.78943810055625,
+          -53.72463343855619
+        ],
+        [
+          -24.78932557387809,
+          -53.72461264842496
+        ],
+        [
+          -24.78871657317404,
+          -53.72463555711046
+        ],
+        [
+          -24.78871070398583,
+          -53.72484546814176
+        ]
+      ],
+      "color": "#7c3aed",
+      "category": "Estacionamento"
+    }
+  ]
+}
