@@ -1,0 +1,26 @@
+{
+  "name": "Mostra Técnica CAET — Mapa do Evento",
+  "short_name": "Mapa CAET",
+  "description": "Guia interativo e mapa dos setores e unidades didático-produtivas da Mostra Técnica do Colégio Agrícola Estadual de Toledo (CAET).",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0e3d26",
+  "theme_color": "#0e3d26",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='40' fill='%230e3d26'/><circle cx='96' cy='85' r='42' fill='%23ffffff'/><path d='M96 55c-15 0-26 12-26 27 0 20 23 42 25 43a1.5 1.5 0 0 0 2 0c2-1 25-23 25-43 0-15-11-27-26-27z' fill='%2322c55e'/><circle cx='96' cy='82' r='10' fill='%23ffffff'/><text x='96' y='165' font-size='22' font-family='sans-serif' font-weight='bold' fill='%23ffffff' text-anchor='middle'>CAET</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='108' fill='%230e3d26'/><circle cx='256' cy='226' r='112' fill='%23ffffff'/><path d='M256 146c-40 0-70 32-70 72 0 54 62 112 67 115a4 4 0 0 0 6 0c5-3 67-61 67-115 0-40-30-72-70-72z' fill='%2322c55e'/><circle cx='256' cy='218' r='28' fill='%23ffffff'/><text x='256' y='440' font-size='60' font-family='sans-serif' font-weight='900' fill='%23ffffff' text-anchor='middle'>CAET</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
