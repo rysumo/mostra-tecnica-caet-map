@@ -1,5 +1,5 @@
 // Service Worker para Modo Offline Completo — Mostra Técnica CAET
-const CACHE_NAME = 'caet-map-v5';
+const CACHE_NAME = 'caet-map-v6';
 const TILE_CACHE_NAME = 'caet-tiles-v2';
 const MAX_TILES_IN_CACHE = 1000;
 

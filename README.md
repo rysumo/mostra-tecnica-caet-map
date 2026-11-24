@@ -2,7 +2,7 @@
 
 Aplicação web progressiva (PWA) desenvolvida para a **Mostra Técnica do Colégio Agrícola Estadual de Toledo (CAET)** na Linha Mandarina, Toledo/PR.
 
-Permite navegar pelos **31 pontos de interesse** (setores agrícolas, zootécnicos, infraestrutura, apoio e parceiros) sem depender de CDNs externas, com suporte offline completo, busca tolerante a acentos, clusters com *spiderfy*, guia de distância GPS interna e checklist de visitação.
+Permite navegar pelos **34 pontos de interesse** (setores agrícolas, zootécnicos, infraestrutura, apoio e parceiros) sem depender de CDNs externas, com suporte offline completo, busca tolerante a acentos, clusters com *spiderfy*, guia de distância GPS interna e checklist de visitação.
 
 ---
 
@@ -15,18 +15,18 @@ Permite navegar pelos **31 pontos de interesse** (setores agrícolas, zootécnic
 - **Bottom Card Mobile:** Ao tocar em qualquer setor, abre um painel fixo na base (nunca cortado pelo header) com descrição, GPS copiável, tempo estimado a pé, marcação de **Visitado**, zoom rápido, rota externa e compartilhamento nativo.
 - **Linha Guia Interna via GPS:** Com o GPS ativo, desenha uma linha tracejada direta da posição atual do visitante até o setor selecionado.
 - **Pré-cache Completo & Fallback de Satélite:**
-  - Service Worker (`caet-map-v4`) faz pré-download em segundo plano dos tiles de satélite do retângulo completo do campus (zooms `16–19`).
+  - Service Worker (`caet-map-v6`) faz pré-download em segundo plano dos tiles de satélite do retângulo completo do campus (zooms `16–19`).
   - Fallback automático de **Google Hybrid** para **Esri World Imagery** se houver falha/rate limit de tiles, além de modo **Mapa de Ruas**.
-- **Checklist de Visitação:** Progresso salvo localmente (`localStorage`) com barra `X/31 visitados`, selo nos pinos visitados e filtro (`Todos` / `Faltam` / `Visitados`) no catálogo modal nativo (`<dialog>`).
+- **Checklist de Visitação:** Progresso salvo localmente (`localStorage`) com barra `X/34 visitados`, selo nos pinos visitados e filtro (`Todos` / `Faltam` / `Visitados`) no catálogo modal nativo (`<dialog>`).
 
 ---
 
-## 🗂️ Setores Mapeados (31 Pontos + 1 Polígono)
+## 🗂️ Setores Mapeados (34 Pontos + 1 Polígono)
 
 - **Agricultura (11):** Setor Café, Setor Tecnologias de Irrigação, Morango Semi-hidropônico, Setor Soja, Setor Milho, Setor Trigo, Setor Algodão, Setor Erva-mate, Horta Mandala, Horta Medicinal e Horta SPDH.
 - **Produção Animal (12):** Ovinocultura, Bovinocultura de leite, Inseminação Artificial, Agroindústria Animal, Agrostológico e Alimentação Animal, Suinocultura, Setor Piscicultura, Galinha de postura, Gado Purunã, Meliponicultura, Frango de corte e Cunicultura.
 - **Infraestrutura & Máquinas (3):** Setor Drone, Maquinário Agrícola e Setor Biodigestor.
-- **Serviços (3):** Inscrição & Recepção, Ponto de Água 1 (entrada) e Água (entroncamento central).
+- **Serviços (6):** Inscrição & Recepção, Lanchonete e 4 Pontos de Água (Entrada, Central, Suinocultura e Bovino/Piscicultura).
 - **Estacionamento (1 ponto + 1 polígono):** Estacionamento Visitantes e Área do Estacionamento.
 - **Parceiros (1):** PUCPR.
 

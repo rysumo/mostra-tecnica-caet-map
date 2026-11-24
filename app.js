@@ -254,8 +254,8 @@
         "badge": "PRODUÇÃO ANIMAL",
         "icon": "barn",
         "color": "#b45309",
-        "lat": -24.78784696633938,
-        "lng": -53.72801369054265,
+        "lat": -24.78780222891677,
+        "lng": -53.72846716612426,
         "elevation": 505.7,
         "description": "Raça bovina paranaense (IAPAR): rusticidade e marmoreio através do cruzamento Charolês, Angus, Caracu e Canchim."
       },
@@ -297,7 +297,7 @@
       },
       {
         "id": "loc-25",
-        "name": "Ponto de Água 1",
+        "name": "Ponto de Água — Entrada",
         "category": "Serviços",
         "badge": "SERVIÇOS",
         "icon": "water",
@@ -309,7 +309,7 @@
       },
       {
         "id": "loc-26",
-        "name": "Água",
+        "name": "Ponto de Água — Central",
         "category": "Serviços",
         "badge": "SERVIÇOS",
         "icon": "water",
@@ -378,6 +378,42 @@
         "lng": -53.7250257187744,
         "elevation": 504.6,
         "description": "Estande institucional da Pontifícia Universidade Católica do Paraná (Campus Toledo) com mostra de cursos e parcerias acadêmicas."
+      },
+      {
+        "id": "loc-32",
+        "name": "Ponto de Água — Suinocultura",
+        "category": "Serviços",
+        "badge": "SERVIÇOS",
+        "icon": "water",
+        "color": "#0891b2",
+        "lat": -24.78778719357144,
+        "lng": -53.72873851258329,
+        "elevation": 508.1,
+        "description": "Bebedouro e ponto de hidratação próximo à Suinocultura, Biodigestor e lavouras."
+      },
+      {
+        "id": "loc-33",
+        "name": "Ponto de Água — Bovino/Piscicultura",
+        "category": "Serviços",
+        "badge": "SERVIÇOS",
+        "icon": "water",
+        "color": "#0891b2",
+        "lat": -24.78714736177722,
+        "lng": -53.72651091490376,
+        "elevation": 504.3,
+        "description": "Ponto de hidratação entre os setores de Bovinocultura de leite e Piscicultura."
+      },
+      {
+        "id": "loc-34",
+        "name": "Lanchonete",
+        "category": "Serviços",
+        "badge": "SERVIÇOS",
+        "icon": "food",
+        "color": "#0891b2",
+        "lat": -24.78763938205157,
+        "lng": -53.7262405902043,
+        "elevation": 508.0,
+        "description": "Praça de alimentação e lanchonete da Mostra Técnica com lanches, salgados e bebidas para visitantes."
       }
     ],
     "polygons": [
@@ -432,7 +468,8 @@
     "tractor-variant": '<path fill="currentColor" d="m13.3 2.79l-3.5 3.5l.7.71l1.4-1.39l1.1 1.1V9c0 1.11-.89 2-2 2h-.54A6 6 0 0 1 12 15a6 6 0 0 1-.09 1h3.12a4.5 4.5 0 0 1 4.47-4a4.5 4.5 0 0 1 2.5.76V8c0-1.11-.89-2-2-2h-6.29l-1.1-1.1L14 3.5zM4 7c-.55 0-1 .45-1 1s.45 1 1 1h5a2 2 0 0 0-2-2zm2 3a5 5 0 0 0-1.56.25l.36.93l-.47.18l-.33-.93a5 5 0 0 0-2.46 2.31l.91.41l-.21.45l-.9-.4A5 5 0 0 0 1 15a5 5 0 0 0 .25 1.56l.93-.36l.18.47l-.93.33a5 5 0 0 0 2.31 2.46l.4-.91l.46.21l-.4.9A5 5 0 0 0 6 20a5 5 0 0 0 1.56-.25l-.36-.93l.47-.18l.33.93a5 5 0 0 0 2.46-2.31l-.91-.4l.21-.46l.9.4A5 5 0 0 0 11 15a5 5 0 0 0-.25-1.56l-.93.36l-.18-.47l.93-.33a5 5 0 0 0-2.31-2.46l-.4.91l-.46-.21l.4-.9A5 5 0 0 0 6 10m0 2a3 3 0 0 1 3 3a3 3 0 0 1-3 3a3 3 0 0 1-3-3a3 3 0 0 1 3-3m13.5 1a3.5 3.5 0 0 0-3.5 3.5a3.5 3.5 0 0 0 3.5 3.5a3.5 3.5 0 0 0 3.5-3.5a3.5 3.5 0 0 0-3.5-3.5m0 2a1.5 1.5 0 0 1 1.5 1.5a1.5 1.5 0 0 1-1.5 1.5a1.5 1.5 0 0 1-1.5-1.5a1.5 1.5 0 0 1 1.5-1.5"/>',
     "fire": '<path fill="currentColor" d="M17.66 11.2c-.23-.3-.51-.56-.77-.82c-.67-.6-1.43-1.03-2.07-1.66C13.33 7.26 13 4.85 13.95 3c-.95.23-1.78.75-2.49 1.32c-2.59 2.08-3.61 5.75-2.39 8.9c.04.1.08.2.08.33c0 .22-.15.42-.35.5c-.23.1-.47.04-.66-.12a.6.6 0 0 1-.14-.17c-1.13-1.43-1.31-3.48-.55-5.12C5.78 10 4.87 12.3 5 14.47c.06.5.12 1 .29 1.5c.14.6.41 1.2.71 1.73c1.08 1.73 2.95 2.97 4.96 3.22c2.14.27 4.43-.12 6.07-1.6c1.83-1.66 2.47-4.32 1.53-6.6l-.13-.26c-.21-.46-.77-1.26-.77-1.26m-3.16 6.3c-.28.24-.74.5-1.1.6c-1.12.4-2.24-.16-2.9-.82c1.19-.28 1.9-1.16 2.11-2.05c.17-.8-.15-1.46-.28-2.23c-.12-.74-.1-1.37.17-2.06c.19.38.39.76.63 1.06c.77 1 1.98 1.44 2.24 2.8c.04.14.06.28.06.43c.03.82-.33 1.72-.93 2.27"/>',
     "clipboard-check": '<path fill="currentColor" d="m10 17l-4-4l1.41-1.41L10 14.17l6.59-6.59L18 9m-6-6a1 1 0 0 1 1 1a1 1 0 0 1-1 1a1 1 0 0 1-1-1a1 1 0 0 1 1-1m7 0h-4.18C14.4 1.84 13.3 1 12 1s-2.4.84-2.82 2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2"/>',
-    "water": '<path fill="currentColor" d="M12 20a6 6 0 0 1-6-6c0-4 6-10.75 6-10.75S18 10 18 14a6 6 0 0 1-6 6"/>'
+    "water": '<path fill="currentColor" d="M12 20a6 6 0 0 1-6-6c0-4 6-10.75 6-10.75S18 10 18 14a6 6 0 0 1-6 6"/>',
+    "food": '<path fill="currentColor" d="M18.06 23h1.66c.84 0 1.53-.65 1.63-1.47L23 5.05h-5V1h-1.97v4.05h-4.97l.3 2.34c1.71.47 3.31 1.32 4.27 2.26c1.44 1.42 2.43 2.89 2.43 5.29zM1 22v-1h15.03v1c0 .54-.45 1-1.03 1H2c-.55 0-1-.46-1-1m15.03-7C16.03 7 1 7 1 15zM1 17h15v2H1z"/>'
   };
 
   function getGlyphPaths(iconType) {
