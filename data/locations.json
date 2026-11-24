@@ -1,7 +1,7 @@
 {
   "title": "Mostra Técnica CAET - Mapa do Evento",
   "center": [
-    -24.7878,
+    -24.78775,
     -53.7265
   ],
   "defaultZoom": 17,
@@ -10,7 +10,8 @@
     "Produção Animal",
     "Infraestrutura & Máquinas",
     "Serviços",
-    "Estacionamento"
+    "Estacionamento",
+    "Parceiros"
   ],
   "locations": [
     {
@@ -22,8 +23,8 @@
       "color": "#b45309",
       "lat": -24.78798980937658,
       "lng": -53.72641289231206,
-      "elevation": 511.0041189543823,
-      "gpsText": "GPS: -24.787990, -53.726413"
+      "elevation": 511.0,
+      "description": "Setor de criação e manejo de ovinos, reprodução, melhoramento genético e sanidade do rebanho."
     },
     {
       "id": "loc-2",
@@ -34,8 +35,8 @@
       "color": "#2563eb",
       "lat": -24.78878852142427,
       "lng": -53.72500748890486,
-      "elevation": 511.6853029367284,
-      "gpsText": "GPS: -24.788789, -53.725007"
+      "elevation": 511.7,
+      "description": "Demonstração técnica de drones agrícolas para pulverização de precisão, mapeamento multiespectral e telemetria."
     },
     {
       "id": "loc-3",
@@ -46,8 +47,8 @@
       "color": "#2563eb",
       "lat": -24.78932814055537,
       "lng": -53.72540943752063,
-      "elevation": 514.527295434797,
-      "gpsText": "GPS: -24.789328, -53.725409"
+      "elevation": 514.5,
+      "description": "Exposição de tratores didáticos, plantadeiras, implementos de solo e dinâmicas de calibração de máquinas."
     },
     {
       "id": "loc-4",
@@ -58,8 +59,8 @@
       "color": "#b45309",
       "lat": -24.78710399343263,
       "lng": -53.72677592982301,
-      "elevation": 503.4953194875924,
-      "gpsText": "GPS: -24.787104, -53.726776"
+      "elevation": 503.5,
+      "description": "Sala de ordenha mecânica canalizada, resfriador a granel, manejo nutricional e rigorosa trava de carência sanitária."
     },
     {
       "id": "loc-5",
@@ -70,8 +71,8 @@
       "color": "#b45309",
       "lat": -24.78699075185239,
       "lng": -53.72690893295326,
-      "elevation": 504.0252343032722,
-      "gpsText": "GPS: -24.786991, -53.726909"
+      "elevation": 504.0,
+      "description": "Laboratório de biotecnologia reprodutiva animal, botijões de nitrogênio, descongelamento de sêmen e protocolo IATF."
     },
     {
       "id": "loc-6",
@@ -82,8 +83,8 @@
       "color": "#b45309",
       "lat": -24.7870755938292,
       "lng": -53.72700124010368,
-      "elevation": 504.2115876584236,
-      "gpsText": "GPS: -24.787076, -53.727001"
+      "elevation": 504.2,
+      "description": "Processamento e agregação de valor: queijos, iogurtes, doce de leite, embutidos e boas práticas higiênico-sanitárias."
     },
     {
       "id": "loc-7",
@@ -94,8 +95,8 @@
       "color": "#16a34a",
       "lat": -24.78742340222299,
       "lng": -53.72545199696982,
-      "elevation": 505.7237629656889,
-      "gpsText": "GPS: -24.787423, -53.725452"
+      "elevation": 505.7,
+      "description": "Cultivo de cafeeiros, arquitetura de plantas, manejo de poda, colheita seletiva e métodos de secagem em terreiro suspenso."
     },
     {
       "id": "loc-8",
@@ -104,10 +105,10 @@
       "badge": "🌱 AGRICULTURA",
       "icon": "sprout",
       "color": "#16a34a",
-      "lat": -24.7875675663122,
-      "lng": -53.72595085152211,
-      "elevation": 506.6876251951865,
-      "gpsText": "GPS: -24.787568, -53.725951"
+      "lat": -24.78762432832632,
+      "lng": -53.72596913804244,
+      "elevation": 506.7,
+      "description": "Sistemas de gotejamento por pressão positiva, microaspersão para hortaliças e automação de fertirrigação."
     },
     {
       "id": "loc-9",
@@ -116,73 +117,61 @@
       "badge": "🌱 AGRICULTURA",
       "icon": "sprout",
       "color": "#16a34a",
-      "lat": -24.78757058911545,
-      "lng": -53.72580163030986,
-      "elevation": 506.6245226333042,
-      "gpsText": "GPS: -24.787571, -53.725802"
+      "lat": -24.78757488530688,
+      "lng": -53.72587069724506,
+      "elevation": 506.6,
+      "description": "Produção em bancadas suspensas com slabs e casca de arroz carbonizada, livre de contato com o solo e com alta doçura."
     },
     {
       "id": "loc-10",
-      "name": "Cunicultura",
+      "name": "Agrostológico e Alimentação Animal",
       "category": "Produção Animal",
       "badge": "🐄 PRODUÇÃO ANIMAL",
       "icon": "cow",
       "color": "#b45309",
-      "lat": -24.78807602556994,
-      "lng": -53.72858141716534,
-      "elevation": 506.1633252661235,
-      "gpsText": "GPS: -24.788076, -53.728581"
+      "lat": -24.78690934918984,
+      "lng": -53.72771790045543,
+      "elevation": 503.5,
+      "description": "Bancos forrageiros orgânicos, capim elefante, leguminosas e integração agroecológica para nutrição sustentável."
     },
     {
       "id": "loc-11",
-      "name": "Agroestologico e Alimentação Animal",
-      "category": "Outros",
-      "badge": "ℹ️ SERVIÇOS",
-      "icon": "info",
-      "color": "#0891b2",
-      "lat": -24.78698631746066,
-      "lng": -53.7274803126561,
-      "elevation": 503.4781771503527,
-      "gpsText": "GPS: -24.786986, -53.727480"
-    },
-    {
-      "id": "loc-12",
       "name": "Setor Soja",
       "category": "Agricultura",
       "badge": "🌱 AGRICULTURA",
       "icon": "sprout",
       "color": "#16a34a",
-      "lat": -24.7869897194152,
-      "lng": -53.728813928797,
-      "elevation": 502.0769807128678,
-      "gpsText": "GPS: -24.786990, -53.728814"
+      "lat": -24.78712456305666,
+      "lng": -53.72871552343855,
+      "elevation": 502.1,
+      "description": "Parcelas de avaliação de cultivares comerciais de soja, plantio direto, inoculação biológica e manejo integrado de pragas."
     },
     {
-      "id": "loc-13",
+      "id": "loc-12",
       "name": "Setor Milho",
       "category": "Agricultura",
       "badge": "🌱 AGRICULTURA",
       "icon": "sprout",
       "color": "#16a34a",
-      "lat": -24.78666039524668,
-      "lng": -53.72861929567873,
-      "elevation": 500.0900466897961,
-      "gpsText": "GPS: -24.786660, -53.728619"
+      "lat": -24.78700062615964,
+      "lng": -53.72851322651821,
+      "elevation": 500.1,
+      "description": "Cultivo de híbridos de milho para silagem da bovinocultura de leite e produção de grãos para a fábrica de ração do CAET."
     },
     {
-      "id": "loc-14",
+      "id": "loc-13",
       "name": "Setor Trigo",
       "category": "Agricultura",
       "badge": "🌱 AGRICULTURA",
       "icon": "sprout",
       "color": "#16a34a",
-      "lat": -24.78682503252801,
-      "lng": -53.72827908526754,
-      "elevation": 501.4608930639052,
-      "gpsText": "GPS: -24.786825, -53.728279"
+      "lat": -24.78696693431159,
+      "lng": -53.72816218971664,
+      "elevation": 501.5,
+      "description": "Cultura de inverno essencial no sistema de rotação com cobertura de solo e sustentabilidade do plantio direto."
     },
     {
-      "id": "loc-15",
+      "id": "loc-14",
       "name": "Setor Algodão",
       "category": "Agricultura",
       "badge": "🌱 AGRICULTURA",
@@ -190,35 +179,35 @@
       "color": "#16a34a",
       "lat": -24.78737967473064,
       "lng": -53.72623571830974,
-      "elevation": 505.9450306284432,
-      "gpsText": "GPS: -24.787380, -53.726236"
+      "elevation": 505.9,
+      "description": "Parcelas demonstrativas do algodoeiro, estágios fenológicos, controle do bicudo e amostragem de rendimento de pluma."
     },
     {
-      "id": "loc-16",
-      "name": "Setor Erva mate",
+      "id": "loc-15",
+      "name": "Setor Erva-mate",
       "category": "Agricultura",
       "badge": "🌱 AGRICULTURA",
       "icon": "sprout",
       "color": "#16a34a",
       "lat": -24.78818994136726,
       "lng": -53.72682797694148,
-      "elevation": 512.6526441912272,
-      "gpsText": "GPS: -24.788190, -53.726828"
+      "elevation": 512.7,
+      "description": "Sistema agroflorestal de erva-mate nativa, podas de conformação e resgate da tradição ervateira paranaense."
     },
     {
-      "id": "loc-17",
+      "id": "loc-16",
       "name": "Suinocultura",
       "category": "Produção Animal",
       "badge": "🐄 PRODUÇÃO ANIMAL",
       "icon": "cow",
       "color": "#b45309",
-      "lat": -24.78776503312167,
-      "lng": -53.72875853317967,
-      "elevation": 506.8882176004255,
-      "gpsText": "GPS: -24.787765, -53.728759"
+      "lat": -24.78799960953331,
+      "lng": -53.72864671708163,
+      "elevation": 506.9,
+      "description": "Galpões de matrizes, maternidade com escamoteadores, creche, terminação e manejo técnico de dejetos."
     },
     {
-      "id": "loc-18",
+      "id": "loc-17",
       "name": "Setor Biodigestor",
       "category": "Infraestrutura & Máquinas",
       "badge": "⚙️ INFRAESTRUTURA",
@@ -226,11 +215,11 @@
       "color": "#2563eb",
       "lat": -24.78754122376148,
       "lng": -53.72896259977192,
-      "elevation": 508.1766926014039,
-      "gpsText": "GPS: -24.787541, -53.728963"
+      "elevation": 508.2,
+      "description": "Reator anaeróbio que converte dejetos da suinocultura em biogás energético e biofertilizante líquido para as lavouras."
     },
     {
-      "id": "loc-19",
+      "id": "loc-18",
       "name": "Setor Piscicultura",
       "category": "Produção Animal",
       "badge": "🐄 PRODUÇÃO ANIMAL",
@@ -238,35 +227,35 @@
       "color": "#b45309",
       "lat": -24.78713309855705,
       "lng": -53.72608662514739,
-      "elevation": 503.4459689915744,
-      "gpsText": "GPS: -24.787133, -53.726087"
+      "elevation": 503.4,
+      "description": "Viveiros escavados de tilápias, controle de oxigênio dissolvido, biometrias e arraçoamento balanceado."
+    },
+    {
+      "id": "loc-19",
+      "name": "Galinha de postura",
+      "category": "Produção Animal",
+      "badge": "🐄 PRODUÇÃO ANIMAL",
+      "icon": "cow",
+      "color": "#b45309",
+      "lat": -24.78765591381664,
+      "lng": -53.72584049891429,
+      "elevation": 507.8,
+      "description": "Galpão de postura comercial, coleta de ovos, manejo nutricional por fase e controle diário de produtividade."
     },
     {
       "id": "loc-20",
-      "name": "Galinha de postura Gaiolas",
-      "category": "Produção Animal",
-      "badge": "🐄 PRODUÇÃO ANIMAL",
-      "icon": "cow",
-      "color": "#b45309",
-      "lat": -24.78768871794547,
-      "lng": -53.72581033222089,
-      "elevation": 507.8258872229687,
-      "gpsText": "GPS: -24.787689, -53.725810"
+      "name": "Horta Mandala",
+      "category": "Agricultura",
+      "badge": "🌱 AGRICULTURA",
+      "icon": "sprout",
+      "color": "#16a34a",
+      "lat": -24.78711353197451,
+      "lng": -53.7255478827626,
+      "elevation": 503.0,
+      "description": "Sistema agroecológico circular inspirado na permacultura, otimizando irrigação, consórcio de espécies e ciclagem de nutrientes."
     },
     {
       "id": "loc-21",
-      "name": "Galinha de Postura Soltas",
-      "category": "Produção Animal",
-      "badge": "🐄 PRODUÇÃO ANIMAL",
-      "icon": "cow",
-      "color": "#b45309",
-      "lat": -24.78711353197451,
-      "lng": -53.72554788276259,
-      "elevation": 502.9801246854798,
-      "gpsText": "GPS: -24.787114, -53.725548"
-    },
-    {
-      "id": "loc-22",
       "name": "Gado Purunã",
       "category": "Produção Animal",
       "badge": "🐄 PRODUÇÃO ANIMAL",
@@ -274,23 +263,23 @@
       "color": "#b45309",
       "lat": -24.78784696633938,
       "lng": -53.72801369054265,
-      "elevation": 505.7052778611653,
-      "gpsText": "GPS: -24.787847, -53.728014"
+      "elevation": 505.7,
+      "description": "Raça bovina paranaense (IAPAR): rusticidade e marmoreio através do cruzamento Charolês, Angus, Caracu e Canchim."
     },
     {
-      "id": "loc-23",
+      "id": "loc-22",
       "name": "Meliponicultura",
       "category": "Produção Animal",
       "badge": "🐄 PRODUÇÃO ANIMAL",
       "icon": "cow",
       "color": "#b45309",
-      "lat": -24.7874697080331,
-      "lng": -53.72445624537814,
-      "elevation": 504.776082777561,
-      "gpsText": "GPS: -24.787470, -53.724456"
+      "lat": -24.78787610123514,
+      "lng": -53.72559350004751,
+      "elevation": 504.8,
+      "description": "Meliponário didático com abelhas nativas sem ferrão (Jataí, Mandaçaia, Mirim) fundamentais para a polinização da fazenda."
     },
     {
-      "id": "loc-24",
+      "id": "loc-23",
       "name": "Frango de corte",
       "category": "Produção Animal",
       "badge": "🐄 PRODUÇÃO ANIMAL",
@@ -298,61 +287,111 @@
       "color": "#b45309",
       "lat": -24.78767199983093,
       "lng": -53.72573957945043,
-      "elevation": 507.6066945990221,
-      "gpsText": "GPS: -24.787672, -53.725740"
+      "elevation": 507.6,
+      "description": "Aviário didático de engorda, ventilação em pressão negativa, nebulização, pesagens e ganho de peso diário."
     },
     {
-      "id": "loc-25",
-      "name": "Inscrição",
+      "id": "loc-24",
+      "name": "Inscrição & Recepção",
       "category": "Serviços",
       "badge": "ℹ️ SERVIÇOS",
       "icon": "info",
       "color": "#0891b2",
       "lat": -24.78976355970232,
       "lng": -53.72492954280644,
-      "elevation": 512.6018537967515,
-      "gpsText": "GPS: -24.789764, -53.724930"
+      "elevation": 512.6,
+      "description": "Portaria principal de recepção, credenciamento de caravanas, entrega de crachás e mapas informativos."
     },
     {
-      "id": "loc-26",
-      "name": "Ponto de Água",
+      "id": "loc-25",
+      "name": "Ponto de Água 1",
       "category": "Serviços",
       "badge": "ℹ️ SERVIÇOS",
-      "icon": "info",
+      "icon": "droplet",
       "color": "#0891b2",
       "lat": -24.78974826267669,
       "lng": -53.72498593754265,
-      "elevation": 512.8204209904947,
-      "gpsText": "GPS: -24.789748, -53.724986"
+      "elevation": 512.8,
+      "description": "Estação de hidratação e bebedouros de água filtrada e gelada para visitantes na entrada principal."
     },
     {
-      "id": "loc-27",
-      "name": "Ponto de Água",
+      "id": "loc-26",
+      "name": "Água",
       "category": "Serviços",
       "badge": "ℹ️ SERVIÇOS",
-      "icon": "info",
+      "icon": "droplet",
       "color": "#0891b2",
       "lat": -24.78820125258162,
       "lng": -53.72673481923785,
-      "elevation": 512.8542278448429,
-      "gpsText": "GPS: -24.788201, -53.726735"
+      "elevation": 512.9,
+      "description": "Ponto central de água potável no entroncamento principal das Unidades Didático-Produtivas."
     },
     {
-      "id": "loc-28",
-      "name": "Estacionamento",
+      "id": "loc-27",
+      "name": "Estacionamento Visitantes",
       "category": "Estacionamento",
       "badge": "🚗 ESTACIONAMENTO",
       "icon": "parking",
       "color": "#7c3aed",
       "lat": -24.78905296927759,
       "lng": -53.72469770408365,
-      "elevation": 511.6017918040174,
-      "gpsText": "GPS: -24.789053, -53.724698"
+      "elevation": 511.6,
+      "description": "Vagas reservadas para veículos leves, vans e ônibus de colégios da região oeste do Paraná."
+    },
+    {
+      "id": "loc-28",
+      "name": "Cunicultura",
+      "category": "Produção Animal",
+      "badge": "🐄 PRODUÇÃO ANIMAL",
+      "icon": "cow",
+      "color": "#b45309",
+      "lat": -24.78766459877772,
+      "lng": -53.72593710969055,
+      "elevation": 507.4,
+      "description": "Criação didática de coelhos das raças Nova Zelândia e Califórnia, manejo de ninhos e conversão alimentar."
+    },
+    {
+      "id": "loc-29",
+      "name": "Horta Medicinal",
+      "category": "Agricultura",
+      "badge": "🌱 AGRICULTURA",
+      "icon": "sprout",
+      "color": "#16a34a",
+      "lat": -24.78739842282352,
+      "lng": -53.72517359131065,
+      "elevation": 505.2,
+      "description": "Cultivo didático de plantas bioativas e fitoterápicas, identificação botânica, princípios ativos e secagem."
+    },
+    {
+      "id": "loc-30",
+      "name": "Horta SPDH",
+      "category": "Agricultura",
+      "badge": "🌱 AGRICULTURA",
+      "icon": "sprout",
+      "color": "#16a34a",
+      "lat": -24.78721928399838,
+      "lng": -53.72506099846109,
+      "elevation": 503.8,
+      "description": "Sistema de Plantio Direto de Hortaliças com cobertura permanente do solo, redução de revolvimento e equilíbrio biológico."
+    },
+    {
+      "id": "loc-31",
+      "name": "PUCPR",
+      "category": "Parceiros",
+      "badge": "🎓 PARCEIROS",
+      "icon": "university",
+      "color": "#881337",
+      "lat": -24.78733055794036,
+      "lng": -53.7250257187744,
+      "elevation": 504.6,
+      "description": "Estande institucional da Pontifícia Universidade Católica do Paraná (Campus Toledo) com mostra de cursos e parcerias acadêmicas."
     }
   ],
   "polygons": [
     {
-      "name": "Estacionamento",
+      "name": "Área do Estacionamento",
+      "category": "Estacionamento",
+      "color": "#7c3aed",
       "coordinates": [
         [
           -24.78871070398583,
@@ -378,9 +417,7 @@
           -24.78871070398583,
           -53.72484546814176
         ]
-      ],
-      "color": "#7c3aed",
-      "category": "Estacionamento"
+      ]
     }
   ]
 }
