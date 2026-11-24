@@ -12,7 +12,7 @@
         "name": "Ovinocultura",
         "category": "Produção Animal",
         "badge": "PRODUÇÃO ANIMAL",
-        "icon": "cow",
+        "icon": "sheep",
         "color": "#b45309",
         "lat": -24.78798980937658,
         "lng": -53.72641289231206,
@@ -24,7 +24,7 @@
         "name": "Setor Drone",
         "category": "Infraestrutura & Máquinas",
         "badge": "INFRAESTRUTURA",
-        "icon": "cog",
+        "icon": "quadcopter",
         "color": "#2563eb",
         "lat": -24.78878852142427,
         "lng": -53.72500748890486,
@@ -36,7 +36,7 @@
         "name": "Maquinário Agrícola",
         "category": "Infraestrutura & Máquinas",
         "badge": "INFRAESTRUTURA",
-        "icon": "cog",
+        "icon": "tractor-variant",
         "color": "#2563eb",
         "lat": -24.78932814055537,
         "lng": -53.72540943752063,
@@ -60,7 +60,7 @@
         "name": "Inseminação Artificial",
         "category": "Produção Animal",
         "badge": "PRODUÇÃO ANIMAL",
-        "icon": "cow",
+        "icon": "needle",
         "color": "#b45309",
         "lat": -24.78699075185239,
         "lng": -53.72690893295326,
@@ -72,7 +72,7 @@
         "name": "Agroindústria Animal",
         "category": "Produção Animal",
         "badge": "PRODUÇÃO ANIMAL",
-        "icon": "cow",
+        "icon": "cheese",
         "color": "#b45309",
         "lat": -24.7870755938292,
         "lng": -53.72700124010368,
@@ -84,7 +84,7 @@
         "name": "Setor Café",
         "category": "Agricultura",
         "badge": "AGRICULTURA",
-        "icon": "sprout",
+        "icon": "coffee",
         "color": "#16a34a",
         "lat": -24.78742340222299,
         "lng": -53.72545199696982,
@@ -96,7 +96,7 @@
         "name": "Setor Tecnologias de Irrigação",
         "category": "Agricultura",
         "badge": "AGRICULTURA",
-        "icon": "sprout",
+        "icon": "sprinkler-variant",
         "color": "#16a34a",
         "lat": -24.78762432832632,
         "lng": -53.72596913804244,
@@ -108,7 +108,7 @@
         "name": "Morango Semi-hidropônico",
         "category": "Agricultura",
         "badge": "AGRICULTURA",
-        "icon": "sprout",
+        "icon": "fruit-cherries",
         "color": "#16a34a",
         "lat": -24.78757488530688,
         "lng": -53.72587069724506,
@@ -120,7 +120,7 @@
         "name": "Agrostológico e Alimentação Animal",
         "category": "Produção Animal",
         "badge": "PRODUÇÃO ANIMAL",
-        "icon": "cow",
+        "icon": "grass",
         "color": "#b45309",
         "lat": -24.78690934918984,
         "lng": -53.72771790045543,
@@ -132,7 +132,7 @@
         "name": "Setor Soja",
         "category": "Agricultura",
         "badge": "AGRICULTURA",
-        "icon": "sprout",
+        "icon": "seed",
         "color": "#16a34a",
         "lat": -24.78712456305666,
         "lng": -53.72871552343855,
@@ -144,7 +144,7 @@
         "name": "Setor Milho",
         "category": "Agricultura",
         "badge": "AGRICULTURA",
-        "icon": "sprout",
+        "icon": "corn",
         "color": "#16a34a",
         "lat": -24.78700062615964,
         "lng": -53.72851322651821,
@@ -156,7 +156,7 @@
         "name": "Setor Trigo",
         "category": "Agricultura",
         "badge": "AGRICULTURA",
-        "icon": "sprout",
+        "icon": "barley",
         "color": "#16a34a",
         "lat": -24.78696693431159,
         "lng": -53.72816218971664,
@@ -168,7 +168,7 @@
         "name": "Setor Algodão",
         "category": "Agricultura",
         "badge": "AGRICULTURA",
-        "icon": "sprout",
+        "icon": "flower-poppy",
         "color": "#16a34a",
         "lat": -24.78737967473064,
         "lng": -53.72623571830974,
@@ -180,7 +180,7 @@
         "name": "Setor Erva-mate",
         "category": "Agricultura",
         "badge": "AGRICULTURA",
-        "icon": "sprout",
+        "icon": "leaf",
         "color": "#16a34a",
         "lat": -24.78818994136726,
         "lng": -53.72682797694148,
@@ -192,7 +192,7 @@
         "name": "Suinocultura",
         "category": "Produção Animal",
         "badge": "PRODUÇÃO ANIMAL",
-        "icon": "cow",
+        "icon": "pig-variant",
         "color": "#b45309",
         "lat": -24.78799960953331,
         "lng": -53.72864671708163,
@@ -204,7 +204,7 @@
         "name": "Setor Biodigestor",
         "category": "Infraestrutura & Máquinas",
         "badge": "INFRAESTRUTURA",
-        "icon": "cog",
+        "icon": "fire",
         "color": "#2563eb",
         "lat": -24.78754122376148,
         "lng": -53.72896259977192,
@@ -216,7 +216,7 @@
         "name": "Setor Piscicultura",
         "category": "Produção Animal",
         "badge": "PRODUÇÃO ANIMAL",
-        "icon": "cow",
+        "icon": "fish",
         "color": "#b45309",
         "lat": -24.78713309855705,
         "lng": -53.72608662514739,
@@ -228,7 +228,7 @@
         "name": "Galinha de postura",
         "category": "Produção Animal",
         "badge": "PRODUÇÃO ANIMAL",
-        "icon": "cow",
+        "icon": "egg",
         "color": "#b45309",
         "lat": -24.78765591381664,
         "lng": -53.72584049891429,
@@ -240,7 +240,7 @@
         "name": "Horta Mandala",
         "category": "Agricultura",
         "badge": "AGRICULTURA",
-        "icon": "sprout",
+        "icon": "flower",
         "color": "#16a34a",
         "lat": -24.78711353197451,
         "lng": -53.7255478827626,
@@ -252,7 +252,7 @@
         "name": "Gado Purunã",
         "category": "Produção Animal",
         "badge": "PRODUÇÃO ANIMAL",
-        "icon": "cow",
+        "icon": "barn",
         "color": "#b45309",
         "lat": -24.78784696633938,
         "lng": -53.72801369054265,
@@ -264,7 +264,7 @@
         "name": "Meliponicultura",
         "category": "Produção Animal",
         "badge": "PRODUÇÃO ANIMAL",
-        "icon": "cow",
+        "icon": "bee",
         "color": "#b45309",
         "lat": -24.78787610123514,
         "lng": -53.72559350004751,
@@ -276,7 +276,7 @@
         "name": "Frango de corte",
         "category": "Produção Animal",
         "badge": "PRODUÇÃO ANIMAL",
-        "icon": "cow",
+        "icon": "turkey",
         "color": "#b45309",
         "lat": -24.78767199983093,
         "lng": -53.72573957945043,
@@ -288,7 +288,7 @@
         "name": "Inscrição & Recepção",
         "category": "Serviços",
         "badge": "SERVIÇOS",
-        "icon": "info",
+        "icon": "clipboard-check",
         "color": "#0891b2",
         "lat": -24.78976355970232,
         "lng": -53.72492954280644,
@@ -300,7 +300,7 @@
         "name": "Ponto de Água 1",
         "category": "Serviços",
         "badge": "SERVIÇOS",
-        "icon": "droplet",
+        "icon": "water",
         "color": "#0891b2",
         "lat": -24.78974826267669,
         "lng": -53.72498593754265,
@@ -312,7 +312,7 @@
         "name": "Água",
         "category": "Serviços",
         "badge": "SERVIÇOS",
-        "icon": "droplet",
+        "icon": "water",
         "color": "#0891b2",
         "lat": -24.78820125258162,
         "lng": -53.72673481923785,
@@ -336,7 +336,7 @@
         "name": "Cunicultura",
         "category": "Produção Animal",
         "badge": "PRODUÇÃO ANIMAL",
-        "icon": "cow",
+        "icon": "rabbit-variant",
         "color": "#b45309",
         "lat": -24.78766459877772,
         "lng": -53.72593710969055,
@@ -348,7 +348,7 @@
         "name": "Horta Medicinal",
         "category": "Agricultura",
         "badge": "AGRICULTURA",
-        "icon": "sprout",
+        "icon": "mortar-pestle-plus",
         "color": "#16a34a",
         "lat": -24.78739842282352,
         "lng": -53.72517359131065,
@@ -360,7 +360,7 @@
         "name": "Horta SPDH",
         "category": "Agricultura",
         "badge": "AGRICULTURA",
-        "icon": "sprout",
+        "icon": "carrot",
         "color": "#16a34a",
         "lat": -24.78721928399838,
         "lng": -53.72506099846109,
@@ -372,7 +372,7 @@
         "name": "PUCPR",
         "category": "Parceiros",
         "badge": "PARCEIROS",
-        "icon": "university",
+        "icon": "school",
         "color": "#881337",
         "lat": -24.78733055794036,
         "lng": -53.7250257187744,
@@ -397,65 +397,50 @@
     ]
   };
 
-  // --- 2. UNIFIED VECTOR SVG ICONS (No Unicode Emoji Icons) ---
-  function getGlyphPaths(iconType, color) {
-    if (iconType === 'all') {
-      return `
-        <circle cx="12" cy="12" r="9" fill="none" stroke="${color}" stroke-width="2"/>
-        <circle cx="12" cy="12" r="5" fill="none" stroke="${color}" stroke-width="2"/>
-        <circle cx="12" cy="12" r="2" fill="${color}"/>
-      `;
-    }
-    if (iconType === 'sprout') {
-      return `
-        <path d="M12 10a6 6 0 0 0-6-6H3v2a6 6 0 0 0 6 6h3V10z" fill="${color}"/>
-        <path d="M12 14a6 6 0 0 1 6-6h3v2a6 6 0 0 1-6 6h-3v-2z" fill="${color}"/>
-        <path d="M12 21V8" stroke="${color}" stroke-width="2.5" stroke-linecap="round"/>
-      `;
-    }
-    if (iconType === 'cow') {
-      return `
-        <path d="M4 7c0-2 1.5-3 3-3s2 1.5 2 3M20 7c0-2-1.5-3-3-3s-2 1.5-2 3" stroke="${color}" stroke-width="2" stroke-linecap="round"/>
-        <path d="M5 8h14a2 2 0 0 1 2 2v4a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5v-4a2 2 0 0 1 2-2z" fill="${color}"/>
-        <circle cx="8.5" cy="11.5" r="1.5" fill="#ffffff"/>
-        <circle cx="15.5" cy="11.5" r="1.5" fill="#ffffff"/>
-        <path d="M9 16c1.5 1 4.5 1 6 0" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/>
-      `;
-    }
-    if (iconType === 'cog') {
-      return `
-        <circle cx="12" cy="12" r="3" fill="${color}"/>
-        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" stroke="${color}" stroke-width="2" fill="none"/>
-      `;
-    }
-    if (iconType === 'droplet') {
-      return `
-        <path d="M12 2.7C9.3 6.1 5 12 5 15.5A7 7 0 0 0 12 22.5a7 7 0 0 0 7-7c0-3.5-4.3-9.4-7-12.8z" fill="${color}"/>
-        <path d="M14.5 13.5a3 3 0 0 1-3 3" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/>
-      `;
-    }
-    if (iconType === 'parking') {
-      return `
-        <rect x="3" y="3" width="18" height="18" rx="4" fill="${color}"/>
-        <path d="M9 16V8h4.5a3 3 0 0 1 0 6H9" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-      `;
-    }
-    if (iconType === 'university') {
-      return `
-        <path d="M12 4L2 9l10 5 10-5-10-5z" fill="${color}"/>
-        <path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5" fill="none" stroke="${color}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M21 10v5" stroke="${color}" stroke-width="2" stroke-linecap="round"/>
-      `;
-    }
-    return `
-      <circle cx="12" cy="12" r="9.5" fill="${color}"/>
-      <circle cx="12" cy="8" r="1.25" fill="#ffffff"/>
-      <path d="M12 11v5m-1.5 0h3" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
-    `;
+  // --- 2. MATERIAL DESIGN ICONS (@mdi/svg 24x24, embedded offline) ---
+  const MDI_ICONS = {
+    "compass": '<path fill="currentColor" d="M14.19 14.19L6 18l3.81-8.19L18 6m-6-4A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 8.9a1.1 1.1 0 0 0-1.1 1.1a1.1 1.1 0 0 0 1.1 1.1a1.1 1.1 0 0 0 1.1-1.1a1.1 1.1 0 0 0-1.1-1.1"/>',
+    "sprout": '<path fill="currentColor" d="M2 22v-2s5-2 10-2s10 2 10 2v2zm9.3-12.9c-1.2-3.9-7.3-3-7.3-3s.2 7.8 5.9 6.6C9.5 9.8 8 9 8 9c2.8 0 3 3.4 3 3.4V17h2v-4.2s0-3.9 3-4.9c0 0-2 3-2 5c7 .7 7-8.9 7-8.9s-8.9-1-9.7 5.1"/>',
+    "cow": '<path fill="currentColor" d="M10.5 18a.5.5 0 0 1 .5.5a.5.5 0 0 1-.5.5a.5.5 0 0 1-.5-.5a.5.5 0 0 1 .5-.5m3 0a.5.5 0 0 1 .5.5a.5.5 0 0 1-.5.5a.5.5 0 0 1-.5-.5a.5.5 0 0 1 .5-.5M10 11a1 1 0 0 1 1 1a1 1 0 0 1-1 1a1 1 0 0 1-1-1a1 1 0 0 1 1-1m4 0a1 1 0 0 1 1 1a1 1 0 0 1-1 1a1 1 0 0 1-1-1a1 1 0 0 1 1-1m4 7c0 2.21-2.69 4-6 4s-6-1.79-6-4c0-.9.45-1.73 1.2-2.4c-.75-1-1.2-2.25-1.2-3.6l.12-1.22c-.54.15-1.19.15-1.72 0c-1.02-.28-2.56-1.43-2.33-2.23s2.14-.95 3.16-.65c.59.17 1.22.6 1.59 1.06l.57-.81C6.79 7.05 7 4 10 3l-.09.14c-.28.44-1 1.83-.24 3.33a6.02 6.02 0 0 1 4.66 0c.76-1.5.04-2.89-.24-3.33L14 3c3 1 3.21 4.05 2.61 5.15l.57.81c.37-.46 1-.89 1.59-1.06c1.02-.3 2.93-.15 3.16.65s-1.31 1.95-2.33 2.23c-.53.15-1.18.15-1.72 0L18 12c0 1.35-.45 2.6-1.2 3.6c.75.67 1.2 1.5 1.2 2.4m-6-2c-2.21 0-4 .9-4 2s1.79 2 4 2s4-.9 4-2s-1.79-2-4-2m0-2c1.12 0 2.17.21 3.07.56c.58-.69.93-1.56.93-2.56a4 4 0 0 0-4-4a4 4 0 0 0-4 4c0 1 .35 1.87.93 2.56c.9-.35 1.95-.56 3.07-.56m2.09-10.86"/>',
+    "cog": '<path fill="currentColor" d="M12 15.5A3.5 3.5 0 0 1 8.5 12A3.5 3.5 0 0 1 12 8.5a3.5 3.5 0 0 1 3.5 3.5a3.5 3.5 0 0 1-3.5 3.5m7.43-2.53c.04-.32.07-.64.07-.97s-.03-.66-.07-1l2.11-1.63c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.31-.61-.22l-2.49 1c-.52-.39-1.06-.73-1.69-.98l-.37-2.65A.506.506 0 0 0 14 2h-4c-.25 0-.46.18-.5.42l-.37 2.65c-.63.25-1.17.59-1.69.98l-2.49-1c-.22-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64L4.57 11c-.04.34-.07.67-.07 1s.03.65.07.97l-2.11 1.66c-.19.15-.25.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1.01c.52.4 1.06.74 1.69.99l.37 2.65c.04.24.25.42.5.42h4c.25 0 .46-.18.5-.42l.37-2.65c.63-.26 1.17-.59 1.69-.99l2.49 1.01c.22.08.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64z"/>',
+    "information": '<path fill="currentColor" d="M13 9h-2V7h2m0 10h-2v-6h2m-1-9A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2"/>',
+    "parking": '<path fill="currentColor" d="M13.2 11H10V7h3.2a2 2 0 0 1 2 2a2 2 0 0 1-2 2M13 3H6v18h4v-6h3a6 6 0 0 0 6-6c0-3.32-2.69-6-6-6"/>',
+    "school": '<path fill="currentColor" d="M12 3L1 9l11 6l9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17z"/>',
+    "sheep": '<path fill="currentColor" d="M20 8.5a2.5 2.5 0 0 1-2.5 2.5c-1.08 0-2-.69-2.34-1.64c-.44.39-1.02.64-1.66.64c-.56 0-1.08-.19-1.5-.5c-.42.31-.93.5-1.5.5c-.64 0-1.22-.25-1.66-.64C8.5 10.31 7.58 11 6.5 11A2.5 2.5 0 0 1 4 8.5c0-1.24.91-2.27 2.1-2.46c-.06-.17-.1-.35-.1-.54A1.5 1.5 0 0 1 7.5 4c.2 0 .39.04.56.11C8.23 3.47 8.81 3 9.5 3c.25 0 .5.07.68.17C10.5 2.5 11.19 2 12 2s1.5.5 1.82 1.17c.18-.1.43-.17.68-.17c.69 0 1.27.47 1.44 1.11c.17-.07.36-.11.56-.11A1.5 1.5 0 0 1 18 5.5c0 .19-.04.37-.1.54c1.19.19 2.1 1.22 2.1 2.46M10 12a1 1 0 0 0-1 1a1 1 0 0 0 1 1a1 1 0 0 0 1-1a1 1 0 0 0-1-1m4 0a1 1 0 0 0-1 1a1 1 0 0 0 1 1a1 1 0 0 0 1-1a1 1 0 0 0-1-1m6.23-1.34c-.64.81-1.62 1.34-2.73 1.34c-.45 0-.88-.1-1.29-.27c-.01 2.55-.38 5.63-1.76 7.22c-.52.59-1.15.91-1.95 1.01V18h-1v1.96c-.8-.1-1.43-.41-1.95-1.01c-1.39-1.6-1.76-4.66-1.77-7.21c-.4.16-.83.26-1.28.26c-1.11 0-2.09-.53-2.73-1.34C2.88 11.55 2 12 2 12s1 2 3 2c.36 0 .64-.04.88-.09C6.22 17.73 7.58 22 12 22s5.78-4.27 6.12-8.09c.24.05.52.09.88.09c2 0 3-2 3-2s-.88-.45-1.77-1.34"/>',
+    "needle": '<path fill="currentColor" d="m11.15 15.18l-1.42-1.41l1.42-1.42l1.41 1.42l1.41-1.42l-1.41-1.41l1.41-1.41l1.42 1.41l1.41-1.41l-2.83-2.83l-7.07 7.07l2.83 2.83zM3.08 19l3.12-3.11l-2.12-2.12l9.89-9.9L16.1 6l1.4-1.42l-1.4-1.42l1.4-1.41L21.75 6l-1.41 1.4L18.92 6L17.5 7.4l2.13 2.13l-9.9 9.89l-2.12-2.12l-4.53 4.54z"/>',
+    "cheese": '<path fill="currentColor" d="M11 17.5c0-.83.67-1.5 1.5-1.5c.29 0 .56.09.79.23l7.46-4.3c-.4-.71-.85-1.38-1.34-2.03a.9.9 0 0 1-.41.1c-.55 0-1-.45-1-1c0-.2.08-.38.18-.54A17.7 17.7 0 0 0 12 4.25C11.85 5.24 11 6 10 6a2 2 0 0 1-2-2c0-.28.06-.55.16-.79C7.3 3.08 6.41 3 5.5 3c-.17 0-.33 0-.5.03v6.02a2.5 2.5 0 0 1 0 4.9V21l6-3.46zM14 9a2 2 0 1 1 0 4c-1.11 0-2-.89-2-2s.9-2 2-2m-5 7c-.55 0-1-.45-1-1s.45-1 1-1s1 .45 1 1s-.45 1-1 1m0-6c-.55 0-1-.45-1-1s.45-1 1-1s1 .45 1 1s-.45 1-1 1"/>',
+    "grass": '<path fill="currentColor" d="M12 20H2v-2h5.75C7 15.19 4.81 13 2 12.26c.64-.16 1.31-.26 2-.26c4.42 0 8 3.58 8 8m10-7.74c-.64-.16-1.31-.26-2-.26c-2.93 0-5.5 1.58-6.88 3.93c.29.66.53 1.35.67 2.07c.13.65.21 1.32.21 2h8v-2h-5.76c.76-2.81 2.95-5 5.76-5.74M15.64 11c.78-2.07 2.23-3.82 4.09-5c-4.29.16-7.73 3.67-7.73 8c.95-1.25 2.2-2.28 3.64-3m-4.22-2.15A8.53 8.53 0 0 0 6.7 4C8.14 5.86 9 8.18 9 10.71c0 .21-.03.41-.04.61c.43.24.83.52 1.22.82a9.9 9.9 0 0 1 1.24-3.29"/>',
+    "pig-variant": '<path fill="currentColor" d="m19.83 7.5l-2.27-2.27c.07-.42.18-.81.32-1.15A1.498 1.498 0 0 0 16.5 2c-1.64 0-3.09.79-4 2h-5C4.46 4 2 6.46 2 9.5S4.5 21 4.5 21H10v-2h2v2h5.5l1.68-5.59l2.82-.94V7.5zM16 11c-.55 0-1-.45-1-1s.45-1 1-1s1 .45 1 1s-.45 1-1 1"/>',
+    "fish": '<path fill="currentColor" d="m12 20l.76-3c-3.26-.21-6.17-1.6-7.01-3.42c-.09.48-.22.92-.42 1.25C4.67 16 3.33 16 2 16c1.1 0 1.5-1.57 1.5-3.5S3.1 9 2 9c1.33 0 2.67 0 3.33 1.17c.2.33.33.77.42 1.25c.65-1.42 2.57-2.57 4.91-3.1L9 5c2 0 4 0 5.33.67c1.13.56 1.78 1.6 2.36 2.71c2.92.7 5.31 2.28 5.31 4.12c0 1.88-2.5 3.5-5.5 4.16c-.83 1.1-1.64 2.12-2.33 2.67c-.84.67-1.5.67-2.17.67m5-9a1 1 0 0 0-1 1a1 1 0 0 0 1 1a1 1 0 0 0 1-1a1 1 0 0 0-1-1"/>',
+    "egg": '<path fill="currentColor" d="M19.5 14.5A7.5 7.5 0 0 1 12 22a7.5 7.5 0 0 1-7.5-7.5C4.5 10.36 7.86 2 12 2s7.5 8.36 7.5 12.5"/>',
+    "barn": '<path fill="currentColor" d="M12 3L3 8.2V21h6l2.9-3l3.1 3h6V8.2zM7.9 20v-6l3 3zm1-7h6l-3 3zm7 7l-3-3l3-3zm-.9-9H8.8V9H15z"/>',
+    "bee": '<path fill="currentColor" d="M17.4 9C17 7.8 16.2 7 15 6.5V5h-1v1.4h-.4c-1.1 0-2 .4-2.8 1.2l-.4.4L9 7.5c-.3-.1-.6-.2-1-.2c-.6 0-1.2.2-1.7.6c-.6.4-.9.9-1.1 1.4c-.2.7-.2 1.3 0 2c.3.7.6 1.2 1.1 1.5c-.4 1.5-.1 2.8 1 3.9c.8.8 1.7 1.2 2.8 1.2c.5 0 .8 0 1.1-.1c.6.8 1.4 1.3 2.4 1.3c.3 0 .7 0 1-.1c.6-.2 1-.6 1.4-1.1c.4-.6.6-1.1.6-1.7c0-.4 0-.7-.1-1l-.5-1.6l.6-.4c.8-.8 1.2-1.9 1.1-3.1H19V9zm-9.7 2.3c-.6-.3-.8-.7-.6-1.3q.3-.9 1.2-.6l3.2 1.2c-1.6.8-2.8 1-3.8.7m6.3 5.6c-.6.2-1 0-1.3-.6c-.3-1-.1-2.2.7-3.8l1.2 3.1c.2.7 0 1.1-.6 1.3m1.2-5.3l-.6-1.6v-.1l-.3-.3h-.1L12.6 9c.4-.3.8-.5 1.3-.5s1 .2 1.4.6s.6.8.6 1.3c-.2.3-.4.8-.7 1.2"/>',
+    "turkey": '<path fill="currentColor" d="M10.5 19.44c-.75.36-1.6.56-2.5.56c-3.31 0-6-2.69-6-6V9c0-3.31 2.69-6 6-6l2.5 4.58c-2.4 1.23-4 3.42-4 5.92s1.61 4.7 4 5.94m5.5-.5V20h1c.55 0 1 .45 1 1s-.45 1-1 1h-3c-.55 0-1-.45-1-1s.45-1 1-1v-1.06c-3.39-.38-6-2.67-6-5.44C8 10.46 11.13 8 15 8h.56C14.84 6.63 14 5.23 14 4c0-1.1.9-2 2-2c2.21 0 4 1.79 4 4h-2s4 3 4 7.5c0 2.77-2.61 5.06-6 5.44M16 4c0 .55.45 1 1 1s1-.45 1-1s-.45-1-1-1s-1 .45-1 1m1 8a2 2 0 0 0-2-2c-2.21 0-4 1.79-4 4h4c1.11 0 2-.89 2-2"/>',
+    "rabbit-variant": '<path fill="currentColor" d="M16.84 14.5c-.26-.17-.62-.61-.79-.82C17.24 12 19 8.87 19 5c0-1.95-.74-3-2-3c-1.54 0-3.96 2.06-5 5.97C10.96 4.06 8.54 2 7 2C5.74 2 5 3.05 5 5c0 3.87 1.76 7 2.95 8.68c-.17.21-.53.65-.79.82c-.5.43-1.66 1.39-1.66 3c0 2.21 1.79 4 4 4c1.55 0 2.5-.56 2.5-.56s.95.56 2.5.56c2.21 0 4-1.79 4-4c0-1.61-1.16-2.57-1.66-3m-7.49-2.3C8.34 10.7 7 8.12 7 5c0-.5.06-.8.12-.97c.94.31 3.24 2.71 3.38 7.64c-.47.12-.84.3-1.15.53m1.15 4.55c-.28 0-.5-.34-.5-.75s.22-.75.5-.75s.5.34.5.75s-.22.75-.5.75M12 19.5c-.55 0-1-.72-1-1s.45-.5 1-.5s1 .22 1 .5s-.45 1-1 1m1.5-2.75c-.28 0-.5-.34-.5-.75s.22-.75.5-.75s.5.34.5.75s-.22.75-.5.75m0-5.08c.14-4.93 2.44-7.33 3.38-7.64c.06.17.12.47.12.97c0 3.12-1.34 5.7-2.35 7.2c-.31-.23-.68-.41-1.15-.53"/>',
+    "coffee": '<path fill="currentColor" d="M2 21h18v-2H2M20 8h-2V5h2m0-2H4v10a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4v-3h2a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2"/>',
+    "sprinkler-variant": '<path fill="currentColor" d="M10 10h4v12h-4zM7 9h2V7H7zM4 8h2V6H4zm0 3h2V9H4zm-3 2h2v-2H1zm0-6h2V5H1zm0 3h2V8H1zm17 1h2V9h-2zm3-1h2V8h-2zm0-5v2h2V5zm0 8h2v-2h-2zm-6-4h2V7h-2zm3-1h2V6h-2zm-8-1h.33L11 9h2l.67-2H14V6h-4z"/>',
+    "fruit-cherries": '<path fill="currentColor" d="M16 13h-.5c-.7-1.3-1.2-3-1.7-4.7l.9.9c2.7 2.1 5.1 1.7 5.1 1.7s.7-3.8-2-5.8c-2.3-1.8-4.4-1.8-5-1.7c-.1-.6-.1-1.1-.2-1.5l-1.4.1c0 3.2-2.7 9.1-3.6 11c-2 .2-3.6 1.9-3.6 4c0 2.2 1.8 4 4 4c1.1 0 2-.4 2.7-1.1c-.4-.9-.7-1.9-.7-2.9s.3-2 .7-2.9c-.4-.4-1-.7-1.5-.9c.7-1.5 1.9-4.2 2.7-6.8c.4 2.3 1.2 5 2.2 7.1c-1.2.7-2.1 2-2.1 3.5c0 2.2 1.8 4 4 4s4-1.8 4-4s-1.8-4-4-4m-8 2.5c-.8 0-1.5.7-1.5 1.5h-1c0-1.4 1.1-2.5 2.5-2.5zm8 0c-.8 0-1.5.7-1.5 1.5h-1c0-1.4 1.1-2.5 2.5-2.5z"/>',
+    "seed": '<path fill="currentColor" d="M20.7 3.3S19.3 3 17.2 3c-5.5 0-15.6 2.1-14 17.8c1.1.1 2.2.2 3.2.2C24.3 21 20.7 3.3 20.7 3.3M7 17S7 7 17 7c0 0-6 2-10 10"/>',
+    "corn": '<path fill="currentColor" d="M11 12H8.82c.8.5 1.53 1.07 2.18 1.68zm-4-1c.27-5.12 2.37-9 5-9c2.66 0 4.77 3.94 5 9.12c1.5-.69 3.17-1.12 5-1.12c-5.75 2.57-3.75 12-10 12c-6 0-4.07-9.43-10-12c1.82 0 3.5.4 5 1m4 0V9H8.24l-.21 2zm0-3V6H9.05c-.25.6-.45 1.27-.62 2zm0-3V3.3c-.55.33-1.05.92-1.5 1.7zm1-2v2h1v1h-1v2h2v1h-2v2h3v1h-3v2h2v1h-1.77c1.19 1.45 1.92 3 2.09 4.23c.99-1.67 1.64-4.39 1.68-7.47C15.94 7 14.13 3 12 3"/>',
+    "barley": '<path fill="currentColor" d="M7.33 18.33c-.83-1.16-.83-2.5-.83-3.83c1.67 1 3.33 2 4.17 3.17l.33.56v-2.28c-1.5-.9-2.92-1.82-3.67-2.87c-.83-1.16-.83-2.5-.83-3.83c1.67 1 3.33 2 4.17 3.17L11 13v-2.3c-1.5-.9-2.92-1.82-3.67-2.87C6.5 6.67 6.5 5.33 6.5 4c1.67 1 3.33 2 4.17 3.17q.15.21.27.45c-.17-.62-.28-1.2-.29-1.8c-.01-1.51.65-3.06 1.31-4.61c.69 1.48 1.38 2.97 1.39 4.48c.01.63-.1 1.27-.28 1.9c.08-.14.16-.28.26-.42C14.17 6 15.83 5 17.5 4c0 1.33 0 2.67-.83 3.83C15.92 8.88 14.5 9.8 13 10.7V13l.33-.58c.84-1.17 2.5-2.17 4.17-3.17c0 1.33 0 2.67-.83 3.83c-.75 1.05-2.17 1.97-3.67 2.87v2.28l.33-.56c.84-1.17 2.5-2.17 4.17-3.17c0 1.33 0 2.67-.83 3.83c-.75 1.05-2.17 1.97-3.67 2.87V23h-2v-1.8c-1.5-.9-2.92-1.82-3.67-2.87"/>',
+    "flower-poppy": '<path fill="currentColor" d="M18.5 12A3.5 3.5 0 0 0 22 8.5A6.5 6.5 0 0 0 15.5 2A3.5 3.5 0 0 0 12 5.5A3.5 3.5 0 0 0 8.5 2A6.5 6.5 0 0 0 2 8.5A3.5 3.5 0 0 0 5.5 12A3.5 3.5 0 0 0 2 15.5A6.5 6.5 0 0 0 8.5 22a3.5 3.5 0 0 0 3.5-3.5a3.5 3.5 0 0 0 3.5 3.5a6.5 6.5 0 0 0 6.5-6.5a3.5 3.5 0 0 0-3.5-3.5M12 16a4 4 0 0 1-4-4a4 4 0 0 1 4-4a4 4 0 0 1 4 4a4 4 0 0 1-4 4m2.5-4a2.5 2.5 0 0 1-2.5 2.5A2.5 2.5 0 0 1 9.5 12A2.5 2.5 0 0 1 12 9.5a2.5 2.5 0 0 1 2.5 2.5"/>',
+    "leaf": '<path fill="currentColor" d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66l.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8"/>',
+    "flower": '<path fill="currentColor" d="M3 13a9 9 0 0 0 9 9c0-5-4.03-9-9-9m9-7.5A2.5 2.5 0 0 1 14.5 8a2.5 2.5 0 0 1-2.5 2.5A2.5 2.5 0 0 1 9.5 8A2.5 2.5 0 0 1 12 5.5m-6.4 4.75a2.5 2.5 0 0 0 2.5 2.5c.53 0 1.02-.17 1.4-.44v.19A2.5 2.5 0 0 0 12 15a2.5 2.5 0 0 0 2.5-2.5v-.19c.38.27.87.44 1.4.44a2.5 2.5 0 0 0 2.5-2.5c0-1-.59-1.85-1.43-2.25c.84-.4 1.43-1.26 1.43-2.25a2.5 2.5 0 0 0-2.5-2.5c-.53 0-1.02.16-1.4.44V3.5A2.5 2.5 0 0 0 12 1a2.5 2.5 0 0 0-2.5 2.5v.19c-.38-.28-.87-.44-1.4-.44a2.5 2.5 0 0 0-2.5 2.5c0 .99.59 1.85 1.43 2.25c-.84.4-1.43 1.25-1.43 2.25M12 22a9 9 0 0 0 9-9c-5 0-9 4-9 9"/>',
+    "mortar-pestle-plus": '<path fill="currentColor" d="M16 14h-3v3h-2v-3H8v-2h3V9h2v3h3m5-7h-2.65l1.15-3.15L17.15 1l-1.46 4H3v2l2 6l-2 6v2h18v-2l-2-6l2-6z"/>',
+    "carrot": '<path fill="currentColor" d="m16 10l-.2 1h-2.3a.5.5 0 0 0-.5.5a.5.5 0 0 0 .5.5h2.1l-1 5h-2.1a.5.5 0 0 0-.5.5a.5.5 0 0 0 .5.5h1.9l-.4 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2l-1-5h1.5a.5.5 0 0 0 .5-.5a.5.5 0 0 0-.5-.5H8.8L8 10c0-1.2.93-2.23 2.29-2.71L8.9 5.28a.997.997 0 0 1 .26-1.39a1 1 0 0 1 1.39.25l.45.66V3a1 1 0 0 1 1-1a1 1 0 0 1 1 1v2.28l1.5-1.74c.33-.42.97-.47 1.39-.11c.42.35.47.98.11 1.41l-2.13 2.51C15.14 7.85 16 8.85 16 10"/>',
+    "quadcopter": '<path fill="currentColor" d="M5.5 1C8 1 10 3 10 5.5c0 .88-.25 1.7-.69 2.4l.1.1h5.18l.1-.1c-.44-.7-.69-1.52-.69-2.4C14 3 16 1 18.5 1S23 3 23 5.5S21 10 18.5 10c-.88 0-1.7-.25-2.4-.69l-1.1 1.1v3.18l1.1 1.1c.7-.44 1.52-.69 2.4-.69c2.5 0 4.5 2 4.5 4.5S21 23 18.5 23S14 21 14 18.5c0-.88.25-1.7.69-2.4l-.1-.1H9.41l-.1.1c.44.7.69 1.52.69 2.4C10 21 8 23 5.5 23S1 21 1 18.5S3 14 5.5 14c.88 0 1.7.25 2.4.69l1.1-1.1v-3.18l-1.1-1.1c-.7.44-1.52.69-2.4.69C3 10 1 8 1 5.5S3 1 5.5 1m0 2A2.5 2.5 0 0 0 3 5.5A2.5 2.5 0 0 0 5.5 8A2.5 2.5 0 0 0 8 5.5A2.5 2.5 0 0 0 5.5 3m0 13A2.5 2.5 0 0 0 3 18.5A2.5 2.5 0 0 0 5.5 21A2.5 2.5 0 0 0 8 18.5A2.5 2.5 0 0 0 5.5 16m13-13A2.5 2.5 0 0 0 16 5.5A2.5 2.5 0 0 0 18.5 8A2.5 2.5 0 0 0 21 5.5A2.5 2.5 0 0 0 18.5 3m0 13a2.5 2.5 0 0 0-2.5 2.5a2.5 2.5 0 0 0 2.5 2.5a2.5 2.5 0 0 0 2.5-2.5a2.5 2.5 0 0 0-2.5-2.5M3.91 17.25l1.13.66c.13-.1.29-.16.46-.16a.75.75 0 0 1 .75.75l-.01.1l1.13.65l-.28.5l-1.13-.66c-.13.1-.29.16-.46.16a.75.75 0 0 1-.75-.75l.01-.1l-1.13-.65zm-.28-11l1.13-.65l-.01-.1a.75.75 0 0 1 .75-.75c.17 0 .33.06.46.16l1.13-.66l.28.5l-1.13.65l.01.1a.75.75 0 0 1-.75.75c-.17 0-.33-.06-.46-.16l-1.13.66zm13.28-2l1.13.66c.13-.1.29-.16.46-.16a.75.75 0 0 1 .75.75l-.01.1l1.13.65l-.28.5l-1.13-.66c-.13.1-.29.16-.46.16a.75.75 0 0 1-.75-.75l.01-.1l-1.13-.65zm-.28 15l1.12-.75a.75.75 0 0 1 .75-.75c.17 0 .33.06.46.16l1.13-.66l.28.5l-1.12.75a.75.75 0 0 1-.75.75c-.17 0-.33-.06-.46-.16l-1.13.66z"/>',
+    "tractor-variant": '<path fill="currentColor" d="m13.3 2.79l-3.5 3.5l.7.71l1.4-1.39l1.1 1.1V9c0 1.11-.89 2-2 2h-.54A6 6 0 0 1 12 15a6 6 0 0 1-.09 1h3.12a4.5 4.5 0 0 1 4.47-4a4.5 4.5 0 0 1 2.5.76V8c0-1.11-.89-2-2-2h-6.29l-1.1-1.1L14 3.5zM4 7c-.55 0-1 .45-1 1s.45 1 1 1h5a2 2 0 0 0-2-2zm2 3a5 5 0 0 0-1.56.25l.36.93l-.47.18l-.33-.93a5 5 0 0 0-2.46 2.31l.91.41l-.21.45l-.9-.4A5 5 0 0 0 1 15a5 5 0 0 0 .25 1.56l.93-.36l.18.47l-.93.33a5 5 0 0 0 2.31 2.46l.4-.91l.46.21l-.4.9A5 5 0 0 0 6 20a5 5 0 0 0 1.56-.25l-.36-.93l.47-.18l.33.93a5 5 0 0 0 2.46-2.31l-.91-.4l.21-.46l.9.4A5 5 0 0 0 11 15a5 5 0 0 0-.25-1.56l-.93.36l-.18-.47l.93-.33a5 5 0 0 0-2.31-2.46l-.4.91l-.46-.21l.4-.9A5 5 0 0 0 6 10m0 2a3 3 0 0 1 3 3a3 3 0 0 1-3 3a3 3 0 0 1-3-3a3 3 0 0 1 3-3m13.5 1a3.5 3.5 0 0 0-3.5 3.5a3.5 3.5 0 0 0 3.5 3.5a3.5 3.5 0 0 0 3.5-3.5a3.5 3.5 0 0 0-3.5-3.5m0 2a1.5 1.5 0 0 1 1.5 1.5a1.5 1.5 0 0 1-1.5 1.5a1.5 1.5 0 0 1-1.5-1.5a1.5 1.5 0 0 1 1.5-1.5"/>',
+    "fire": '<path fill="currentColor" d="M17.66 11.2c-.23-.3-.51-.56-.77-.82c-.67-.6-1.43-1.03-2.07-1.66C13.33 7.26 13 4.85 13.95 3c-.95.23-1.78.75-2.49 1.32c-2.59 2.08-3.61 5.75-2.39 8.9c.04.1.08.2.08.33c0 .22-.15.42-.35.5c-.23.1-.47.04-.66-.12a.6.6 0 0 1-.14-.17c-1.13-1.43-1.31-3.48-.55-5.12C5.78 10 4.87 12.3 5 14.47c.06.5.12 1 .29 1.5c.14.6.41 1.2.71 1.73c1.08 1.73 2.95 2.97 4.96 3.22c2.14.27 4.43-.12 6.07-1.6c1.83-1.66 2.47-4.32 1.53-6.6l-.13-.26c-.21-.46-.77-1.26-.77-1.26m-3.16 6.3c-.28.24-.74.5-1.1.6c-1.12.4-2.24-.16-2.9-.82c1.19-.28 1.9-1.16 2.11-2.05c.17-.8-.15-1.46-.28-2.23c-.12-.74-.1-1.37.17-2.06c.19.38.39.76.63 1.06c.77 1 1.98 1.44 2.24 2.8c.04.14.06.28.06.43c.03.82-.33 1.72-.93 2.27"/>',
+    "clipboard-check": '<path fill="currentColor" d="m10 17l-4-4l1.41-1.41L10 14.17l6.59-6.59L18 9m-6-6a1 1 0 0 1 1 1a1 1 0 0 1-1 1a1 1 0 0 1-1-1a1 1 0 0 1 1-1m7 0h-4.18C14.4 1.84 13.3 1 12 1s-2.4.84-2.82 2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2"/>',
+    "water": '<path fill="currentColor" d="M12 20a6 6 0 0 1-6-6c0-4 6-10.75 6-10.75S18 10 18 14a6 6 0 0 1-6 6"/>'
+  };
+
+  function getGlyphPaths(iconType) {
+    return MDI_ICONS[iconType] || MDI_ICONS.information;
   }
 
   function renderInlineSvg(iconType, color = 'currentColor') {
-    return `<svg viewBox="0 0 24 24" aria-hidden="true">${getGlyphPaths(iconType, color)}</svg>`;
+    return `<svg viewBox="0 0 24 24" style="color: ${color};" aria-hidden="true">${getGlyphPaths(iconType)}</svg>`;
   }
 
   function getCategoryIconType(cat) {
@@ -463,25 +448,25 @@
     if (cat === 'Produção Animal') return 'cow';
     if (cat === 'Infraestrutura & Máquinas') return 'cog';
     if (cat === 'Estacionamento') return 'parking';
-    if (cat === 'Parceiros') return 'university';
-    if (cat === 'all') return 'all';
-    return 'info';
+    if (cat === 'Parceiros') return 'school';
+    if (cat === 'all') return 'compass';
+    return 'information';
   }
 
   function getPinHtml(loc, isVisited) {
-    const iconInner = getGlyphPaths(loc.icon, loc.color);
+    const iconInner = getGlyphPaths(loc.icon);
     const visitedBadge = isVisited
-      ? `<circle cx="32" cy="8" r="7" fill="#16a34a" stroke="#ffffff" stroke-width="2"/>
-         <path d="M29 8l2 2 4-4" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>`
+      ? `<circle cx="33" cy="8" r="7" fill="#16a34a" stroke="#ffffff" stroke-width="2"/>
+         <path d="M30 8l2 2 4-4" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>`
       : '';
 
     return `
       <div class="pin-inner">
-        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="54" viewBox="0 0 40 54" style="filter: drop-shadow(0 6px 10px rgba(0,0,0,0.38));">
-          <path d="M20 0C9 0 0 9 0 20c0 15.5 17.5 32 18.8 33.2a1.8 1.8 0 0 0 2.4 0C22.5 52 40 35.5 40 20 40 9 31 0 20 0z" fill="${loc.color}"/>
-          <circle cx="20" cy="20" r="15" fill="#ffffff"/>
-          <circle cx="20" cy="20" r="13.5" fill="none" stroke="${loc.color}25" stroke-width="1"/>
-          <g transform="translate(8, 8)">${iconInner}</g>
+        <svg xmlns="http://www.w3.org/2000/svg" width="42" height="54" viewBox="0 0 42 54" style="filter: drop-shadow(0 6px 10px rgba(0,0,0,0.38));">
+          <path d="M21 0C9.4 0 0 9.4 0 21c0 16.2 18.4 31.8 19.8 32.9a1.9 1.9 0 0 0 2.4 0C23.6 52.8 42 37.2 42 21 42 9.4 32.6 0 21 0z" fill="${loc.color}"/>
+          <circle cx="21" cy="21" r="15.5" fill="#ffffff"/>
+          <circle cx="21" cy="21" r="14" fill="none" stroke="${loc.color}30" stroke-width="1"/>
+          <g transform="translate(11, 11) scale(0.833)" color="${loc.color}">${iconInner}</g>
           ${visitedBadge}
         </svg>
         <span class="pin-label">${escapeHtml(loc.name)}</span>
@@ -778,8 +763,8 @@
       const customIcon = L.divIcon({
         className: `custom-map-pin${selectedLocationId === loc.id ? ' is-selected' : ''}`,
         html: getPinHtml(loc, isVisited),
-        iconSize: [40, 54],
-        iconAnchor: [20, 52]
+        iconSize: [42, 54],
+        iconAnchor: [21, 52]
       });
 
       const marker = L.marker([loc.lat, loc.lng], {
@@ -807,8 +792,8 @@
     marker.setIcon(L.divIcon({
       className: `custom-map-pin${selectedLocationId === loc.id ? ' is-selected' : ''}`,
       html: getPinHtml(loc, isVisited),
-      iconSize: [40, 54],
-      iconAnchor: [20, 52]
+      iconSize: [42, 54],
+      iconAnchor: [21, 52]
     }));
   }
 
@@ -872,7 +857,7 @@
       const meters = getDistanceMeters(userCoords.lat, userCoords.lng, loc.lat, loc.lng);
       distanceHtml = `
         <span class="distance-pill">
-          ${renderInlineSvg('all', '#0369a1')}
+          ${renderInlineSvg('compass', '#0369a1')}
           <span>${formatDistance(meters)}</span>
         </span>
       `;
@@ -913,7 +898,7 @@
           </button>
 
           <button type="button" id="btn-zoom-sector" class="btn-primary">
-            ${renderInlineSvg('all', '#ffffff')}
+            ${renderInlineSvg('compass', '#ffffff')}
             <span>Aproximar</span>
           </button>
         </div>
