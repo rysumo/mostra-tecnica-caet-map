@@ -75,38 +75,73 @@ categories = {
         "icon": "sprout",
         "color": "#16a34a",
         "bg": "#dcfce7",
-        "badge": "🌱 AGRICULTURA",
+        "badge": "AGRICULTURA",
     },
     "Produção Animal": {
         "icon": "cow",
         "color": "#b45309",
         "bg": "#fef3c7",
-        "badge": "🐄 PRODUÇÃO ANIMAL",
+        "badge": "PRODUÇÃO ANIMAL",
     },
     "Infraestrutura & Máquinas": {
         "icon": "cog",
         "color": "#2563eb",
         "bg": "#dbeafe",
-        "badge": "⚙️ INFRAESTRUTURA",
+        "badge": "INFRAESTRUTURA",
     },
     "Serviços": {
-        "icon": "info",
+        "icon": "information",
         "color": "#0891b2",
         "bg": "#cffafe",
-        "badge": "ℹ️ SERVIÇOS",
+        "badge": "SERVIÇOS",
     },
     "Estacionamento": {
         "icon": "parking",
         "color": "#7c3aed",
         "bg": "#ede9fe",
-        "badge": "🚗 ESTACIONAMENTO",
+        "badge": "ESTACIONAMENTO",
     },
     "Parceiros": {
-        "icon": "university",
+        "icon": "school",
         "color": "#881337",
         "bg": "#ffe4e6",
-        "badge": "🎓 PARCEIROS",
+        "badge": "PARCEIROS",
     },
+}
+
+# Exclusive MDI icon per sector
+sector_icons = {
+    "Ovinocultura": "sheep",
+    "Bovinocultura de leite": "cow",
+    "Inseminação Artificial": "needle",
+    "Agroindústria Animal": "cheese",
+    "Agrostológico e Alimentação Animal": "grass",
+    "Suinocultura": "pig-variant",
+    "Setor Piscicultura": "fish",
+    "Galinha de postura": "egg",
+    "Gado Purunã": "barn",
+    "Meliponicultura": "bee",
+    "Frango de corte": "turkey",
+    "Cunicultura": "rabbit-variant",
+    "Setor Café": "coffee",
+    "Setor Tecnologias de Irrigação": "sprinkler-variant",
+    "Morango Semi-hidropônico": "fruit-cherries",
+    "Setor Soja": "seed",
+    "Setor Milho": "corn",
+    "Setor Trigo": "barley",
+    "Setor Algodão": "flower-poppy",
+    "Setor Erva-mate": "leaf",
+    "Horta Mandala": "flower",
+    "Horta Medicinal": "mortar-pestle-plus",
+    "Horta SPDH": "carrot",
+    "Setor Drone": "quadcopter",
+    "Maquinário Agrícola": "tractor-variant",
+    "Setor Biodigestor": "fire",
+    "Inscrição & Recepção": "clipboard-check",
+    "Ponto de Água 1": "water",
+    "Água": "water",
+    "Estacionamento Visitantes": "parking",
+    "PUCPR": "school",
 }
 
 
@@ -169,23 +204,21 @@ for pm in root.findall(".//kml:Placemark", ns):
             if raw_name in ("Água", "gua"):
                 water_count += 1
                 name = "Ponto de Água 1" if water_count == 1 else "Água"
-                icon = "droplet"
             elif raw_name == "Estacionamento":
                 name = "Estacionamento Visitantes"
-                icon = None
             else:
                 name = name_corrections.get(raw_name, raw_name)
-                icon = None
 
             cat = get_category(name)
             cat_info = categories.get(cat, categories["Serviços"])
+            icon = sector_icons.get(name, cat_info["icon"])
 
             locations.append({
                 "id": f"loc-{len(locations)+1}",
                 "name": name,
                 "category": cat,
                 "badge": cat_info["badge"],
-                "icon": icon or cat_info["icon"],
+                "icon": icon,
                 "color": cat_info["color"],
                 "lat": lat,
                 "lng": lng,
