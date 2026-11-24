@@ -61,8 +61,11 @@ descriptions = {
     "Meliponicultura": "Meliponário didático com abelhas nativas sem ferrão (Jataí, Mandaçaia, Mirim) fundamentais para a polinização da fazenda.",
     "Frango de corte": "Aviário didático de engorda, ventilação em pressão negativa, nebulização, pesagens e ganho de peso diário.",
     "Inscrição & Recepção": "Portaria principal de recepção, credenciamento de caravanas, entrega de crachás e mapas informativos.",
-    "Ponto de Água 1": "Estação de hidratação e bebedouros de água filtrada e gelada para visitantes na entrada principal.",
-    "Água": "Ponto central de água potável no entroncamento principal das Unidades Didático-Produtivas.",
+    "Ponto de Água — Entrada": "Estação de hidratação e bebedouros de água filtrada e gelada para visitantes na entrada principal.",
+    "Ponto de Água — Central": "Ponto central de água potável no entroncamento principal das Unidades Didático-Produtivas.",
+    "Ponto de Água — Suinocultura": "Bebedouro e ponto de hidratação próximo à Suinocultura, Biodigestor e lavouras.",
+    "Ponto de Água — Bovino/Piscicultura": "Ponto de hidratação entre os setores de Bovinocultura de leite e Piscicultura.",
+    "Lanchonete": "Praça de alimentação e lanchonete da Mostra Técnica com lanches, salgados e bebidas para visitantes.",
     "Estacionamento Visitantes": "Vagas reservadas para veículos leves, vans e ônibus de colégios da região oeste do Paraná.",
     "Horta Medicinal": "Cultivo didático de plantas bioativas e fitoterápicas, identificação botânica, princípios ativos e secagem.",
     "Horta SPDH": "Sistema de Plantio Direto de Hortaliças com cobertura permanente do solo, redução de revolvimento e equilíbrio biológico.",
@@ -138,8 +141,11 @@ sector_icons = {
     "Maquinário Agrícola": "tractor-variant",
     "Setor Biodigestor": "fire",
     "Inscrição & Recepção": "clipboard-check",
-    "Ponto de Água 1": "water",
-    "Água": "water",
+    "Ponto de Água — Entrada": "water",
+    "Ponto de Água — Central": "water",
+    "Ponto de Água — Suinocultura": "water",
+    "Ponto de Água — Bovino/Piscicultura": "water",
+    "Lanchonete": "food",
     "Estacionamento Visitantes": "parking",
     "PUCPR": "school",
 }
@@ -147,14 +153,14 @@ sector_icons = {
 
 def get_category(name):
     low = name.lower()
+    if any(k in low for k in ["inscrição", "água", "lanchonete"]):
+        return "Serviços"
     if any(k in low for k in ["café", "irrigação", "morango", "soja", "milho", "trigo", "algodão", "erva-mate", "erva mate", "horta"]):
         return "Agricultura"
     if any(k in low for k in ["ovinocultura", "bovinocultura", "inseminação", "agroindústria", "cunicultura", "agrostológico", "agroecológico", "suinocultura", "piscicultura", "galinha", "purunã", "meliponicultura", "frango"]):
         return "Produção Animal"
     if any(k in low for k in ["drone", "maquinário", "biodigestor"]):
         return "Infraestrutura & Máquinas"
-    if any(k in low for k in ["inscrição", "água"]):
-        return "Serviços"
     if "estacionamento" in low:
         return "Estacionamento"
     if "pucpr" in low:
@@ -203,7 +209,13 @@ for pm in root.findall(".//kml:Placemark", ns):
 
             if raw_name in ("Água", "gua"):
                 water_count += 1
-                name = "Ponto de Água 1" if water_count == 1 else "Água"
+                water_names = {
+                    1: "Ponto de Água — Entrada",
+                    2: "Ponto de Água — Central",
+                    3: "Ponto de Água — Suinocultura",
+                    4: "Ponto de Água — Bovino/Piscicultura",
+                }
+                name = water_names.get(water_count, f"Ponto de Água {water_count}")
             elif raw_name == "Estacionamento":
                 name = "Estacionamento Visitantes"
             else:

@@ -261,8 +261,8 @@
       "badge": "PRODUÇÃO ANIMAL",
       "icon": "barn",
       "color": "#b45309",
-      "lat": -24.78784696633938,
-      "lng": -53.72801369054265,
+      "lat": -24.78780222891677,
+      "lng": -53.72846716612426,
       "elevation": 505.7,
       "description": "Raça bovina paranaense (IAPAR): rusticidade e marmoreio através do cruzamento Charolês, Angus, Caracu e Canchim."
     },
@@ -304,7 +304,7 @@
     },
     {
       "id": "loc-25",
-      "name": "Ponto de Água 1",
+      "name": "Ponto de Água — Entrada",
       "category": "Serviços",
       "badge": "SERVIÇOS",
       "icon": "water",
@@ -316,7 +316,7 @@
     },
     {
       "id": "loc-26",
-      "name": "Água",
+      "name": "Ponto de Água — Central",
       "category": "Serviços",
       "badge": "SERVIÇOS",
       "icon": "water",
@@ -385,6 +385,42 @@
       "lng": -53.7250257187744,
       "elevation": 504.6,
       "description": "Estande institucional da Pontifícia Universidade Católica do Paraná (Campus Toledo) com mostra de cursos e parcerias acadêmicas."
+    },
+    {
+      "id": "loc-32",
+      "name": "Ponto de Água — Suinocultura",
+      "category": "Serviços",
+      "badge": "SERVIÇOS",
+      "icon": "water",
+      "color": "#0891b2",
+      "lat": -24.78778719357144,
+      "lng": -53.72873851258329,
+      "elevation": 508.1,
+      "description": "Bebedouro e ponto de hidratação próximo à Suinocultura, Biodigestor e lavouras."
+    },
+    {
+      "id": "loc-33",
+      "name": "Ponto de Água — Bovino/Piscicultura",
+      "category": "Serviços",
+      "badge": "SERVIÇOS",
+      "icon": "water",
+      "color": "#0891b2",
+      "lat": -24.78714736177722,
+      "lng": -53.72651091490376,
+      "elevation": 504.3,
+      "description": "Ponto de hidratação entre os setores de Bovinocultura de leite e Piscicultura."
+    },
+    {
+      "id": "loc-34",
+      "name": "Lanchonete",
+      "category": "Serviços",
+      "badge": "SERVIÇOS",
+      "icon": "food",
+      "color": "#0891b2",
+      "lat": -24.78763938205157,
+      "lng": -53.7262405902043,
+      "elevation": 508.0,
+      "description": "Praça de alimentação e lanchonete da Mostra Técnica com lanches, salgados e bebidas para visitantes."
     }
   ],
   "polygons": [
