@@ -253,19 +253,19 @@
       <button data-cat="all" class="cat-pill active flex items-center gap-2 px-3.5 py-2 rounded-full text-xs font-bold whitespace-nowrap transition shadow-sm bg-[#0e3d26] text-white border border-emerald-600 ring-2 ring-emerald-400/30">
         <span class="w-4 h-4 flex items-center justify-center">🎯</span>
         <span>Todos</span>
-        <span class="pill-count px-1.5 py-0.5 bg-emerald-950/80 text-emerald-200 rounded-full text-[10px] font-mono">28</span>
+        <span class="pill-count px-1.5 py-0.5 bg-emerald-950/80 text-emerald-200 rounded-full text-[10px] font-mono">31</span>
       </button>
 
       <button data-cat="Agricultura" class="cat-pill flex items-center gap-2 px-3.5 py-2 rounded-full text-xs font-bold whitespace-nowrap transition shadow-sm bg-white text-gray-700 border border-gray-200 hover:bg-gray-50">
         <span class="w-4 h-4 flex items-center justify-center">🌱</span>
         <span>Agricultura</span>
-        <span class="pill-count px-1.5 py-0.5 bg-gray-100 text-gray-600 rounded-full text-[10px] font-mono">8</span>
+        <span class="pill-count px-1.5 py-0.5 bg-gray-100 text-gray-600 rounded-full text-[10px] font-mono">11</span>
       </button>
 
       <button data-cat="Produção Animal" class="cat-pill flex items-center gap-2 px-3.5 py-2 rounded-full text-xs font-bold whitespace-nowrap transition shadow-sm bg-white text-gray-700 border border-gray-200 hover:bg-gray-50">
         <span class="w-4 h-4 flex items-center justify-center">🐄</span>
         <span>Produção Animal</span>
-        <span class="pill-count px-1.5 py-0.5 bg-gray-100 text-gray-600 rounded-full text-[10px] font-mono">13</span>
+        <span class="pill-count px-1.5 py-0.5 bg-gray-100 text-gray-600 rounded-full text-[10px] font-mono">12</span>
       </button>
 
       <button data-cat="Infraestrutura & Máquinas" class="cat-pill flex items-center gap-2 px-3.5 py-2 rounded-full text-xs font-bold whitespace-nowrap transition shadow-sm bg-white text-gray-700 border border-gray-200 hover:bg-gray-50">
@@ -285,6 +285,12 @@
         <span>Estacionamento</span>
         <span class="pill-count px-1.5 py-0.5 bg-gray-100 text-gray-600 rounded-full text-[10px] font-mono">1</span>
       </button>
+
+      <button data-cat="Parceiros" class="cat-pill flex items-center gap-2 px-3.5 py-2 rounded-full text-xs font-bold whitespace-nowrap transition shadow-sm bg-white text-gray-700 border border-gray-200 hover:bg-gray-50">
+        <span class="w-4 h-4 flex items-center justify-center">🎓</span>
+        <span>Parceiros</span>
+        <span class="pill-count px-1.5 py-0.5 bg-gray-100 text-gray-600 rounded-full text-[10px] font-mono">1</span>
+      </button>
     </div>
   </header>
 
@@ -297,7 +303,7 @@
       <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
       </svg>
-      <span>Setores da Mostra (28)</span>
+      <span id="btn-quick-catalog-label">Setores da Mostra (31)</span>
     </button>
   </div>
 
@@ -369,7 +375,7 @@
           "color": "#2563eb",
           "lat": -24.78878852142427,
           "lng": -53.72500748890486,
-          "elevation": 511.6,
+          "elevation": 511.7,
           "description": "Demonstração técnica de drones agrícolas para pulverização de precisão, mapeamento multiespectral e telemetria."
         },
         {
@@ -393,7 +399,7 @@
           "color": "#b45309",
           "lat": -24.78710399343263,
           "lng": -53.72677592982301,
-          "elevation": 503.4,
+          "elevation": 503.5,
           "description": "Sala de ordenha mecânica canalizada, resfriador a granel, manejo nutricional e rigorosa trava de carência sanitária."
         },
         {
@@ -439,9 +445,9 @@
           "badge": "🌱 AGRICULTURA",
           "icon": "sprout",
           "color": "#16a34a",
-          "lat": -24.7875675663122,
-          "lng": -53.72595085152211,
-          "elevation": 506.6,
+          "lat": -24.78762432832632,
+          "lng": -53.72596913804244,
+          "elevation": 506.7,
           "description": "Sistemas de gotejamento por pressão positiva, microaspersão para hortaliças e automação de fertirrigação."
         },
         {
@@ -451,73 +457,61 @@
           "badge": "🌱 AGRICULTURA",
           "icon": "sprout",
           "color": "#16a34a",
-          "lat": -24.78757058911545,
-          "lng": -53.72580163030986,
+          "lat": -24.78757488530688,
+          "lng": -53.72587069724506,
           "elevation": 506.6,
           "description": "Produção em bancadas suspensas com slabs e casca de arroz carbonizada, livre de contato com o solo e com alta doçura."
         },
         {
           "id": "loc-10",
-          "name": "Cunicultura",
+          "name": "Agrostológico e Alimentação Animal",
           "category": "Produção Animal",
           "badge": "🐄 PRODUÇÃO ANIMAL",
           "icon": "cow",
           "color": "#b45309",
-          "lat": -24.78807602556994,
-          "lng": -53.72858141716534,
-          "elevation": 506.1,
-          "description": "Criação didática de coelhos das raças Nova Zelândia e Califórnia, manejo de ninhos e conversão alimentar."
-        },
-        {
-          "id": "loc-11",
-          "name": "Agroecológico e Alimentação Animal",
-          "category": "Produção Animal",
-          "badge": "🐄 PRODUÇÃO ANIMAL",
-          "icon": "cow",
-          "color": "#b45309",
-          "lat": -24.78698631746066,
-          "lng": -53.7274803126561,
-          "elevation": 503.4,
+          "lat": -24.78690934918984,
+          "lng": -53.72771790045543,
+          "elevation": 503.5,
           "description": "Bancos forrageiros orgânicos, capim elefante, leguminosas e integração agroecológica para nutrição sustentável."
         },
         {
-          "id": "loc-12",
+          "id": "loc-11",
           "name": "Setor Soja",
           "category": "Agricultura",
           "badge": "🌱 AGRICULTURA",
           "icon": "sprout",
           "color": "#16a34a",
-          "lat": -24.7869897194152,
-          "lng": -53.728813928797,
-          "elevation": 502.0,
+          "lat": -24.78712456305666,
+          "lng": -53.72871552343855,
+          "elevation": 502.1,
           "description": "Parcelas de avaliação de cultivares comerciais de soja, plantio direto, inoculação biológica e manejo integrado de pragas."
         },
         {
-          "id": "loc-13",
+          "id": "loc-12",
           "name": "Setor Milho",
           "category": "Agricultura",
           "badge": "🌱 AGRICULTURA",
           "icon": "sprout",
           "color": "#16a34a",
-          "lat": -24.78666039524668,
-          "lng": -53.72861929567873,
-          "elevation": 500.0,
+          "lat": -24.78700062615964,
+          "lng": -53.72851322651821,
+          "elevation": 500.1,
           "description": "Cultivo de híbridos de milho para silagem da bovinocultura de leite e produção de grãos para a fábrica de ração do CAET."
         },
         {
-          "id": "loc-14",
+          "id": "loc-13",
           "name": "Setor Trigo",
           "category": "Agricultura",
           "badge": "🌱 AGRICULTURA",
           "icon": "sprout",
           "color": "#16a34a",
-          "lat": -24.78682503252801,
-          "lng": -53.72827908526754,
-          "elevation": 501.4,
+          "lat": -24.78696693431159,
+          "lng": -53.72816218971664,
+          "elevation": 501.5,
           "description": "Cultura de inverno essencial no sistema de rotação com cobertura de solo e sustentabilidade do plantio direto."
         },
         {
-          "id": "loc-15",
+          "id": "loc-14",
           "name": "Setor Algodão",
           "category": "Agricultura",
           "badge": "🌱 AGRICULTURA",
@@ -529,7 +523,7 @@
           "description": "Parcelas demonstrativas do algodoeiro, estágios fenológicos, controle do bicudo e amostragem de rendimento de pluma."
         },
         {
-          "id": "loc-16",
+          "id": "loc-15",
           "name": "Setor Erva-mate",
           "category": "Agricultura",
           "badge": "🌱 AGRICULTURA",
@@ -537,23 +531,23 @@
           "color": "#16a34a",
           "lat": -24.78818994136726,
           "lng": -53.72682797694148,
-          "elevation": 512.6,
+          "elevation": 512.7,
           "description": "Sistema agroflorestal de erva-mate nativa, podas de conformação e resgate da tradição ervateira paranaense."
         },
         {
-          "id": "loc-17",
+          "id": "loc-16",
           "name": "Suinocultura",
           "category": "Produção Animal",
           "badge": "🐄 PRODUÇÃO ANIMAL",
           "icon": "cow",
           "color": "#b45309",
-          "lat": -24.78776503312167,
-          "lng": -53.72875853317967,
-          "elevation": 506.8,
+          "lat": -24.78799960953331,
+          "lng": -53.72864671708163,
+          "elevation": 506.9,
           "description": "Galpões de matrizes, maternidade com escamoteadores, creche, terminação e manejo técnico de dejetos."
         },
         {
-          "id": "loc-18",
+          "id": "loc-17",
           "name": "Setor Biodigestor",
           "category": "Infraestrutura & Máquinas",
           "badge": "⚙️ INFRAESTRUTURA",
@@ -561,11 +555,11 @@
           "color": "#2563eb",
           "lat": -24.78754122376148,
           "lng": -53.72896259977192,
-          "elevation": 508.1,
+          "elevation": 508.2,
           "description": "Reator anaeróbio que converte dejetos da suinocultura em biogás energético e biofertilizante líquido para as lavouras."
         },
         {
-          "id": "loc-19",
+          "id": "loc-18",
           "name": "Setor Piscicultura",
           "category": "Produção Animal",
           "badge": "🐄 PRODUÇÃO ANIMAL",
@@ -577,31 +571,31 @@
           "description": "Viveiros escavados de tilápias, controle de oxigênio dissolvido, biometrias e arraçoamento balanceado."
         },
         {
-          "id": "loc-20",
-          "name": "Galinha de Postura Gaiolas",
+          "id": "loc-19",
+          "name": "Galinha de postura",
           "category": "Produção Animal",
           "badge": "🐄 PRODUÇÃO ANIMAL",
           "icon": "cow",
           "color": "#b45309",
-          "lat": -24.78768871794547,
-          "lng": -53.72581033222089,
+          "lat": -24.78765591381664,
+          "lng": -53.72584049891429,
           "elevation": 507.8,
-          "description": "Galpão com baterias californianas para postura comercial, esteiras de coleta e controle diário de taxa de postura."
+          "description": "Galpão de postura comercial, coleta de ovos, manejo nutricional por fase e controle diário de produtividade."
+        },
+        {
+          "id": "loc-20",
+          "name": "Horta Mandala",
+          "category": "Agricultura",
+          "badge": "🌱 AGRICULTURA",
+          "icon": "sprout",
+          "color": "#16a34a",
+          "lat": -24.78711353197451,
+          "lng": -53.7255478827626,
+          "elevation": 503.0,
+          "description": "Sistema agroecológico circular inspirado na permacultura, otimizando irrigação, consórcio de espécies e ciclagem de nutrientes."
         },
         {
           "id": "loc-21",
-          "name": "Galinha de Postura Soltas",
-          "category": "Produção Animal",
-          "badge": "🐄 PRODUÇÃO ANIMAL",
-          "icon": "cow",
-          "color": "#b45309",
-          "lat": -24.78711353197451,
-          "lng": -53.72554788276259,
-          "elevation": 502.9,
-          "description": "Sistema colonial/caipira com acesso a piquetes verdes, ninhos confortáveis e bem-estar animal."
-        },
-        {
-          "id": "loc-22",
           "name": "Gado Purunã",
           "category": "Produção Animal",
           "badge": "🐄 PRODUÇÃO ANIMAL",
@@ -613,19 +607,19 @@
           "description": "Raça bovina paranaense (IAPAR): rusticidade e marmoreio através do cruzamento Charolês, Angus, Caracu e Canchim."
         },
         {
-          "id": "loc-23",
+          "id": "loc-22",
           "name": "Meliponicultura",
           "category": "Produção Animal",
           "badge": "🐄 PRODUÇÃO ANIMAL",
           "icon": "cow",
           "color": "#b45309",
-          "lat": -24.7874697080331,
-          "lng": -53.72445624537814,
-          "elevation": 504.7,
+          "lat": -24.78787610123514,
+          "lng": -53.72559350004751,
+          "elevation": 504.8,
           "description": "Meliponário didático com abelhas nativas sem ferrão (Jataí, Mandaçaia, Mirim) fundamentais para a polinização da fazenda."
         },
         {
-          "id": "loc-24",
+          "id": "loc-23",
           "name": "Frango de corte",
           "category": "Produção Animal",
           "badge": "🐄 PRODUÇÃO ANIMAL",
@@ -637,7 +631,7 @@
           "description": "Aviário didático de engorda, ventilação em pressão negativa, nebulização, pesagens e ganho de peso diário."
         },
         {
-          "id": "loc-25",
+          "id": "loc-24",
           "name": "Inscrição & Recepção",
           "category": "Serviços",
           "badge": "ℹ️ SERVIÇOS",
@@ -649,7 +643,7 @@
           "description": "Portaria principal de recepção, credenciamento de caravanas, entrega de crachás e mapas informativos."
         },
         {
-          "id": "loc-26",
+          "id": "loc-25",
           "name": "Ponto de Água 1",
           "category": "Serviços",
           "badge": "ℹ️ SERVIÇOS",
@@ -661,7 +655,7 @@
           "description": "Estação de hidratação e bebedouros de água filtrada e gelada para visitantes na entrada principal."
         },
         {
-          "id": "loc-27",
+          "id": "loc-26",
           "name": "Água",
           "category": "Serviços",
           "badge": "ℹ️ SERVIÇOS",
@@ -669,11 +663,11 @@
           "color": "#0891b2",
           "lat": -24.78820125258162,
           "lng": -53.72673481923785,
-          "elevation": 512.8,
+          "elevation": 512.9,
           "description": "Ponto central de água potável no entroncamento principal das Unidades Didático-Produtivas."
         },
         {
-          "id": "loc-28",
+          "id": "loc-27",
           "name": "Estacionamento Visitantes",
           "category": "Estacionamento",
           "badge": "🚗 ESTACIONAMENTO",
@@ -683,6 +677,54 @@
           "lng": -53.72469770408365,
           "elevation": 511.6,
           "description": "Vagas reservadas para veículos leves, vans e ônibus de colégios da região oeste do Paraná."
+        },
+        {
+          "id": "loc-28",
+          "name": "Cunicultura",
+          "category": "Produção Animal",
+          "badge": "🐄 PRODUÇÃO ANIMAL",
+          "icon": "cow",
+          "color": "#b45309",
+          "lat": -24.78766459877772,
+          "lng": -53.72593710969055,
+          "elevation": 507.4,
+          "description": "Criação didática de coelhos das raças Nova Zelândia e Califórnia, manejo de ninhos e conversão alimentar."
+        },
+        {
+          "id": "loc-29",
+          "name": "Horta Medicinal",
+          "category": "Agricultura",
+          "badge": "🌱 AGRICULTURA",
+          "icon": "sprout",
+          "color": "#16a34a",
+          "lat": -24.78739842282352,
+          "lng": -53.72517359131065,
+          "elevation": 505.2,
+          "description": "Cultivo didático de plantas bioativas e fitoterápicas, identificação botânica, princípios ativos e secagem."
+        },
+        {
+          "id": "loc-30",
+          "name": "Horta SPDH",
+          "category": "Agricultura",
+          "badge": "🌱 AGRICULTURA",
+          "icon": "sprout",
+          "color": "#16a34a",
+          "lat": -24.78721928399838,
+          "lng": -53.72506099846109,
+          "elevation": 503.8,
+          "description": "Sistema de Plantio Direto de Hortaliças com cobertura permanente do solo, redução de revolvimento e equilíbrio biológico."
+        },
+        {
+          "id": "loc-31",
+          "name": "PUCPR",
+          "category": "Parceiros",
+          "badge": "🎓 PARCEIROS",
+          "icon": "university",
+          "color": "#881337",
+          "lat": -24.78733055794036,
+          "lng": -53.7250257187744,
+          "elevation": 504.6,
+          "description": "Estande institucional da Pontifícia Universidade Católica do Paraná (Campus Toledo) com mostra de cursos e parcerias acadêmicas."
         }
       ],
       "polygons": [
@@ -740,6 +782,13 @@
           <rect x="3" y="3" width="18" height="18" rx="4" fill="${borderColor}"/>
           <path d="M9 16V8h4.5a3 3 0 0 1 0 6H9" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
         `;
+      } else if (iconType === 'university') {
+        // Academic Partner Cap (PUCPR)
+        iconInner = `
+          <path d="M12 4L2 9l10 5 10-5-10-5z" fill="${borderColor}"/>
+          <path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5" fill="none" stroke="${borderColor}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M21 10v5" stroke="${borderColor}" stroke-width="2" stroke-linecap="round"/>
+        `;
       } else {
         // Information Desk 'i'
         iconInner = `
@@ -795,7 +844,30 @@
     });
 
     // --- 4. MAP BOOTSTRAP ---
+    function syncCounts() {
+      const counts = MAP_DATA.locations.reduce((acc, loc) => {
+        acc[loc.category] = (acc[loc.category] || 0) + 1;
+        return acc;
+      }, {});
+      const total = MAP_DATA.locations.length;
+
+      document.querySelectorAll('.cat-pill').forEach(pill => {
+        const cat = pill.dataset.cat;
+        const badge = pill.querySelector('.pill-count');
+        if (badge) {
+          badge.textContent = cat === 'all' ? total : (counts[cat] || 0);
+        }
+      });
+
+      const catalogLabel = document.getElementById('btn-quick-catalog-label');
+      if (catalogLabel) {
+        catalogLabel.textContent = `Setores da Mostra (${total})`;
+      }
+    }
+
     function initMap() {
+      syncCounts();
+
       map = L.map('map', {
         center: MAP_DATA.center,
         zoom: MAP_DATA.defaultZoom,
@@ -1255,7 +1327,7 @@
           <div onclick="focusOnPlace('${l.id}'); closeDrawer();" class="p-3.5 hover:bg-gray-50 active:bg-emerald-50 cursor-pointer flex items-center justify-between transition">
             <div class="flex items-start gap-3">
               <span class="w-8 h-8 rounded-xl flex items-center justify-center text-sm flex-shrink-0 mt-0.5" style="background-color: ${l.color}15; color: ${l.color}">
-                ${l.category === 'Agricultura' ? '🌱' : l.category === 'Produção Animal' ? '🐄' : l.category === 'Infraestrutura & Máquinas' ? '⚙️' : l.category === 'Estacionamento' ? '🚗' : 'ℹ️'}
+                ${l.category === 'Agricultura' ? '🌱' : l.category === 'Produção Animal' ? '🐄' : l.category === 'Infraestrutura & Máquinas' ? '⚙️' : l.category === 'Estacionamento' ? '🚗' : l.category === 'Parceiros' ? '🎓' : 'ℹ️'}
               </span>
               <div>
                 <div class="text-sm font-bold text-gray-900 leading-tight">${l.name}</div>
